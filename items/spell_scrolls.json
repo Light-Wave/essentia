@@ -1,0 +1,11 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_technomancer_tier_0",
+    "//": "Technomancer spell",
+    "name": { "str": "Basic Technomancer Theory", "str_pl": "Basic Technomancer Theories" },
+    "description": "A most basic understanding of technomancer magic.",
+    "use_action": { "type": "learn_spell", "spells": [ "create_rune_technomancer" ] }
+  }
+]

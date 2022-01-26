@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "research",
+    "name": "Research",
+    "authors": [ "Lightwave" ],
+    "maintainers": [ "Lightwave" ],
+    "description": "Research",
+    "category": "total_conversion",
+    "dependencies": [ "dda", "magiclysm" ],
+    "obsolete": false
+  }
+]
