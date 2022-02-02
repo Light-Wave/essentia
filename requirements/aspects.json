@@ -1,0 +1,218 @@
+[
+  {
+    "id": "req_research_victus",
+    "type": "requirement",
+    "//": "Life force.",
+    "components": [
+      [ [ "rune_technomancer", 1 ] ],
+      [
+        [ "milk", 1 ],
+        [ "milk_raw", 1 ],
+        [ "pine_tea", 1 ],
+        [ "grapefruit", 1 ],
+        [ "blackberries", 1 ],
+        [ "vitamins", 1 ],
+        [ "gummy_vitamins", 1 ],
+        [ "eggs_bird", 1, "LIST" ],
+        [ "egg_reptile", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_lux",
+    "type": "requirement",
+    "//": "Light.",
+    "tools": [
+      [
+        [ "lighter", 1 ],
+        [ "ref_lighter", 1 ],
+        [ "candle", 1 ],
+        [ "reading_light", 1 ],
+        [ "electric_lantern", 1 ],
+        [ "flashlight", 1 ],
+        [ "atomic_light", -1 ],
+        [ "wearable_light", 1 ],
+        [ "survivor_light", 1 ],
+        [ "wearable_atomic_light", -1 ],
+        [ "oil_lamp", 1 ],
+        [ "gasoline_lantern", 1 ],
+        [ "atomic_lamp", -1 ],
+        [ "fire", -1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_potentia",
+    "type": "requirement",
+    "//": "Energy.",
+    "components": [
+      [
+        [ "charcoal", 1 ],
+        [ "coal_lump", 1 ],
+        [ "cable", 1 ],
+        [ "wire", 1 ],
+        [ "copper_wire", 1 ],
+        [ "solder", 1 ],
+        [ "battery", 5 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_telum",
+    "type": "requirement",
+    "//": "Weapon.",
+    "components": [
+      [
+        [ "cudgel", 1 ],
+        [ "nailboard", 1 ],
+        [ "sword_wood", 1 ],
+        [ "sword_nail", 1 ],
+        [ "tonfa_wood", 1 ],
+        [ "q_staff", 1 ],
+        [ "makeshift_machete", 1 ],
+        [ "glass_shiv", 1 ],
+        [ "sword_crude", 1 ],
+        [ "longsword", 1 ],
+        [ "survivor_machete", 1 ],
+        [ "spear_stone", 1 ],
+        [ "sharpened_pipe", 1 ],
+        [ "simple_spear_pipe", 1 ],
+        [ "spear_pipe", 1 ],
+        [ "spear_survivor", 1 ],
+        [ "makeshift_knife", 1 ],
+        [ "pointy_stick", 1 ],
+        [ "pointy_stick_long", 1 ],
+        [ "pointed_rebar", 1 ],
+        [ "sharp_rebar", 1 ],
+        [ "spear_rebar", 1 ],
+        [ "pike_wood", 1 ],
+        [ "spear_knife", 1 ],
+        [ "knife_combat", 1 ],
+        [ "knife_combat_mod", 1 ],
+        [ "knife_hunting", 1 ],
+        [ "knife_rambo", 1 ],
+        [ "knife_rm42", 1 ],
+        [ "knife_trench", 1 ],
+        [ "spear_knife_superior", 1 ],
+        [ "bone_knife", 1 ],
+        [ "sharp_toothbrush", 1 ],
+        [ "staff_sling", 1 ],
+        [ "throwing_stick", 1 ],
+        [ "bolas", 1 ],
+        [ "net", 1 ],
+        [ "sling", 1 ],
+        [ "slingshot", 1 ],
+        [ "longbow", 1 ],
+        [ "woodgreatbow", 1 ],
+        [ "selfbow", 1 ],
+        [ "shortbow", 1 ],
+        [ "compositebow", 1 ],
+        [ "compgreatbow", 1 ],
+        [ "throwing_knife", 1 ],
+        [ "throwing_axe", 1 ],
+        [ "arrow_small_game_fletched", 1 ],
+        [ "arrow_fire_hardened_fletched", 1 ],
+        [ "arrow_field_point_fletched", 1 ],
+        [ "arrow_heavy_field_point_fletched", 1 ],
+        [ "arrow_metal_sharpened_fletched", 1 ],
+        [ "arrow_heavy_fire_hardened_fletched", 1 ],
+        [ "arrow_wood_heavy", 1 ],
+        [ "bolt_wood", 1 ],
+        [ "bolt_wood_bodkin", 1 ],
+        [ "bolt_wood_small_game", 1 ],
+        [ "bolt_metal", 1 ],
+        [ "bolt_crude", 1 ],
+        [ "bolt_simple_wood", 1 ],
+        [ "bolt_simple_small_game", 1 ],
+        [ "bolt_makeshift", 1 ],
+        [ "flamable_arrow", 1 ],
+        [ "fishspear", 1 ],
+        [ "arrow_plastic", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_tutamen",
+    "type": "requirement",
+    "//": "Armor.",
+    "components": [
+      [
+        [ "armor_chitin", 1 ],
+        [ "armor_acidchitin", 1 ],
+        [ "leather", 1 ],
+        [ "sheet_kevlar_layered", 1 ],
+        [ "link_sheet", 1 ],
+        [ "2byarm_guard", 1 ],
+        [ "armguard_hard", 1 ],
+        [ "armguard_paper", 1 ],
+        [ "improvised_armguard_tire", 1 ],
+        [ "armguard_scrap", 1 ],
+        [ "armguard_tire", 1 ],
+        [ "elbow_pads", 1 ],
+        [ "boots_plate", 1 ],
+        [ "boots_scrap", 1 ],
+        [ "gloves_work", 1 ],
+        [ "glasses_safety", 1 ],
+        [ "goggles_welding", 1 ],
+        [ "helmet_barbute", 1 ],
+        [ "helmet_conical", 1 ],
+        [ "mask_gas", 1 ],
+        [ "pot_helmet", 1 ],
+        [ "tinfoil_hat", 1 ],
+        [ "2byshin_guard", 1 ],
+        [ "knee_pads", 1 ],
+        [ "legguard_paper", 1 ],
+        [ "legguard_scrap", 1 ],
+        [ "legguard_tire", 1 ],
+        [ "bookplate", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_cognito",
+    "type": "requirement",
+    "//": "Mind.",
+    "components": [
+      [
+        [ "brain", 1 ],
+        [ "mutant_brain", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_permutatio",
+    "type": "requirement",
+    "//": "Exchange.",
+    "components": [
+      [
+        [ "farming_seeds", 1, "LIST" ],
+        [ "eggs_bird", 1, "LIST" ],
+        [ "egg_reptile", 1 ],
+        [ "eggs_insect", 1, "LIST" ],
+        [ "acorns", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_iter",
+    "type": "requirement",
+    "//": "Travel.",
+    "components": [
+      [
+        [ "wheel", 1 ],
+        [ "wheel_bicycle", 1 ],
+        [ "wheel_10", 1 ],
+        [ "wheel_motorbike", 1 ],
+        [ "wheel_motorbike_or", 1 ],
+        [ "wheel_small", 1 ],
+        [ "wheel_tricycle", 1 ],
+        [ "wheel_bicycle", 1 ],
+        [ "wheel_wheelchair", 1 ],
+        [ "wheel_wide_or", 1 ],
+        [ "wheel_wood", 1 ],
+        [ "wheel_wood_b", 1 ],
+        [ "wheel_armor", 1 ]
+      ]
+    ]
+  }
+]

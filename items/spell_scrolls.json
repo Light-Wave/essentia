@@ -3,9 +3,49 @@
     "type": "BOOK",
     "copy-from": "spell_scroll",
     "id": "research_technomancer_tier_0",
-    "//": "Technomancer spell",
     "name": { "str": "Basic Technomancer Theory", "str_pl": "Basic Technomancer Theories" },
     "description": "A most basic understanding of technomancer magic.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_technomancer_tier_1",
+    "name": { "str": "Intermediate Technomancer Theory", "str_pl": "Intermediate Technomancer Theories" },
+    "description": "An intermediate understanding of technomancer magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_technomancer_tier_2",
+    "name": { "str": "Advanced Technomancer Theory", "str_pl": "Advanced Technomancer Theories" },
+    "description": "An advanced understanding of technomancer magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_technomancer_tier_3",
+    "name": { "str": "Expert Technomancer Theory", "str_pl": "Expert Technomancer Theories" },
+    "description": "An expert level understanding of technomancer magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_create_rune_technomancer",
+    "//": "Technomancer spell",
+    "name": { "str": "Scroll of Technomancer Rune", "str_pl": "Scrolls of Technomancer Rune" },
+    "description": "This ritual creates a small pebble attuned to Technomancers.  You can use the rune as a catalyst for recipes.",
     "use_action": { "type": "learn_spell", "spells": [ "create_rune_technomancer" ] }
   }
 ]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "req_research_basic",
+    "type": "requirement",
+    "//": "Includes writing implements and writeable surfaces.",
+    "tools": [
+      [
+        [ "pen", 5 ],
+        [ "black_pen", 5 ],
+        [ "blue_pen", 5 ],
+        [ "green_pen", 5 ],
+        [ "red_pen", 5 ],
+        [ "pencil", 5 ],
+        [ "survival_marker", 10 ],
+        [ "permanent_marker", 5 ]
+      ]
+    ],
+    "components": [ [ [ "paper", 40 ], [ "birchbark", 5 ], [ "leather", 5 ] ] ]
+  },
+  {
+    "id": "req_research_teleport",
+    "type": "requirement",
+    "//": "Teleport.",
+    "tools": [
+      [
+        [ "teleporter", -1 ],
+        [ "telepad", -1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_locks",
+    "type": "requirement",
+    "//": "Locks.",
+    "components": [
+      [
+        [ "lock", 1 ],
+        [ "crude_picklock", 1 ],
+        [ "emergency_lockpick", 1 ]
+      ]
+    ]
+  }
+]
