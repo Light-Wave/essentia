@@ -214,5 +214,35 @@
         [ "wheel_armor", 1 ]
       ]
     ]
+  },
+  {
+    "id": "req_research_motus",
+    "type": "requirement",
+    "//": "Movement.",
+    "components": [
+      [
+        [ "hinge", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_sensus",
+    "type": "requirement",
+    "//": "Senses.",
+    "components": [
+      [
+        [ "carrot", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_praecantatio",
+    "type": "requirement",
+    "//": "Magic.",
+    "components": [
+      [
+        [ "mana_dust", 1 ]
+      ]
+    ]
   }
 ]

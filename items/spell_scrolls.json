@@ -4,7 +4,7 @@
     "copy-from": "spell_scroll",
     "id": "research_technomancer_tier_0",
     "name": { "str": "Basic Technomancer Theory", "str_pl": "Basic Technomancer Theories" },
-    "description": "A most basic understanding of technomancer magic.",
+    "description": "A most basic understanding of technomancer magic.  Technomancers are the new breed of modern magician, blending their arcane might with their advanced knowledge of the fundamental nature of the universe.  They use technology to enhance their magic and vice versa.",
     "intelligence": 5,
     "skill": "spellcraft",
     "max_level": 1
@@ -47,5 +47,121 @@
     "name": { "str": "Scroll of Technomancer Rune", "str_pl": "Scrolls of Technomancer Rune" },
     "description": "This ritual creates a small pebble attuned to Technomancers.  You can use the rune as a catalyst for recipes.",
     "use_action": { "type": "learn_spell", "spells": [ "create_rune_technomancer" ] }
-  }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_0",
+    "name": { "str": "Basic Earthshaper Theory", "str_pl": "Basic Earthshaper Theories" },
+    "description": "A most basic understanding of earthshaper magic.  Earthshapers have allowed their minds to sink deep within the stones and metals of the planet, and become one with its secrets.  To a master Earthshaper, spells can be as permanent as the stones they are created from, and time is measured in geological eras.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_1",
+    "name": { "str": "Intermediate Earthshaper Theory", "str_pl": "Intermediate Earthshaper Theories" },
+    "description": "An intermediate understanding of earthshaper magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_2",
+    "name": { "str": "Advanced Earthshaper Theory", "str_pl": "Advanced Earthshaper Theories" },
+    "description": "An advanced understanding of earthshaper magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_3",
+    "name": { "str": "Expert Earthshaper Theory", "str_pl": "Expert Earthshaper Theories" },
+    "description": "An expert level understanding of earthshaper magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_create_rune_earthshaper",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Earthshaper Rune", "str_pl": "Scrolls of Earthshaper Rune" },
+    "description": "This ritual creates a small pebble attuned to Earthshapers.  You can use the rune as a catalyst for recipes.",
+    "use_action": { "type": "learn_spell", "spells": [ "create_rune_earthshaper" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_move_earth",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Move Earth", "str_pl": "Scrolls of Move Earth" },
+    "description": "Your essence flows around you, and the earth follows.",
+    "use_action": { "type": "learn_spell", "spells": [ "move_earth" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_soulrend",
+    "//": "Animist spell",
+    "name": { "str": "Scroll of Soulrend", "str_pl": "Scrolls of Soulrend" },
+    "description": "Violently tears the spirit from the body, and bounds the resulting shade to your will.",
+    "use_action": { "type": "learn_spell", "spells": [ "soulrend" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_0",
+    "name": { "str": "Basic Animist Theory", "str_pl": "Basic Animist Theories" },
+    "description": "A most basic understanding of animist magic.  The animist tradition is a relatively new school of magical thought, formed through combination of many older ways that focus on harmony and connection to the natural world.  This does not mean that animists are passive: the natural world is a savage place.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_1",
+    "name": { "str": "Intermediate Animist Theory", "str_pl": "Intermediate Animist Theories" },
+    "description": "An intermediate understanding of animist magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_2",
+    "name": { "str": "Advanced Animist Theory", "str_pl": "Advanced Animist Theories" },
+    "description": "An advanced understanding of animist magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_3",
+    "name": { "str": "Expert Animist Theory", "str_pl": "Expert Animist Theories" },
+    "description": "An expert level understanding of animist magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_create_rune_animist",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Animist Rune", "str_pl": "Scrolls of Animist Rune" },
+    "description": "This ritual creates a small pebble attuned to Animist.  You can use the rune as a catalyst for recipes.",
+    "use_action": { "type": "learn_spell", "spells": [ "create_rune_animist" ] }
+  },
 ]
