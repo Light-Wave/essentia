@@ -163,5 +163,5 @@
     "name": { "str": "Scroll of Animist Rune", "str_pl": "Scrolls of Animist Rune" },
     "description": "This ritual creates a small pebble attuned to Animist.  You can use the rune as a catalyst for recipes.",
     "use_action": { "type": "learn_spell", "spells": [ "create_rune_animist" ] }
-  }
+  },
 ]

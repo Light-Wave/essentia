@@ -1,0 +1,112 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "insight_base",
+    "category": "spare_parts",
+    "name": { "str": "insight" },
+    "weight": "0 g",
+    "volume": "0 ml",
+    "color": "pink",
+    "spoils_in": "1 day 12 hours",
+    "comestible_type": "FOOD",
+    "symbol": "?",
+    "quench": 0,
+    "healthy": 0,
+    "calories": 0,
+    "description": "An insight regarding the nature of reality.  It is slowly fading from your memory.",
+    "price": 330,
+    "price_postapoc": 20,
+    "material": [ "flesh" ],
+    "flags": [ "TRADER_AVOID" ],
+    "stack_size": 1,
+    "fun": 0
+  },
+    {
+    "id": "insight_victus",
+    "//": "Life force.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "victus insight", "str_pl": "victus insights" },
+    "description": "An insight into the nature of organic life.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_lux",
+    "//": "Light.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "lux insight", "str_pl": "lux insights" },
+    "description": "An insight into the nature of light.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_potentia",
+    "//": "Energy.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "potentia insight", "str_pl": "potentia insights" },
+    "description": "An insight into the nature of energy.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_telum",
+    "//": "Weapon.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "telum insight", "str_pl": "telum insights" },
+    "description": "An insight into the nature of weapons and the act of causing harm.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_tutamen",
+    "//": "Armor.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "tutamen insight", "str_pl": "tutamen insights" },
+    "description": "An insight into the nature of armor and protection.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_cognito",
+    "//": "Mind.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "cognito insight", "str_pl": "cognito insights" },
+    "description": "An insight into the nature of minds, information processing, memory, and information.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_permutatio",
+    "//": "Exchange.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "permutatio insight", "str_pl": "permutatio insights" },
+    "description": "An insight into the nature of change.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_iter",
+    "//": "Travel.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "iter insight", "str_pl": "iter insights" },
+    "description": "An insight into the nature of travel.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_motus",
+    "//": "Movement.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "motus insight", "str_pl": "motus insights" },
+    "description": "An insight into the nature of movement.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_sensus",
+    "//": "Senses.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "sensus insight", "str_pl": "sensus insights" },
+    "description": "An insight into the nature of senses.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_praecantatio",
+    "//": "Magic.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "praecantatio insight", "str_pl": "praecantatio insights" },
+    "description": "An insight into the nature of magic.  It is slowly fading from your memory."
+  }
+]
