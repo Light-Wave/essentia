@@ -1,167 +1,364 @@
 [
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_technomancer_tier_0",
-    "name": { "str": "Basic Technomancer Theory", "str_pl": "Basic Technomancer Theories" },
-    "description": "A most basic understanding of technomancer magic.  Technomancers are the new breed of modern magician, blending their arcane might with their advanced knowledge of the fundamental nature of the universe.  They use technology to enhance their magic and vice versa.",
-    "intelligence": 5,
-    "skill": "spellcraft",
-    "max_level": 1
+    "type": "GENERIC",
+    "id": "essentia_crystal_abstract",
+    "symbol": "*",
+    "color": "white",
+    "name": { "str": "essentia crystal" },
+    "description": "A sparkling crystal.",
+    "price": 100,
+    "price_postapoc": 50,
+    "material": [ "gemstone" ],
+    "weight": "200 mg",
+    "volume": "6 ml",
+    "to_hit": -5
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_technomancer_tier_1",
-    "name": { "str": "Intermediate Technomancer Theory", "str_pl": "Intermediate Technomancer Theories" },
-    "description": "An intermediate understanding of technomancer magic.",
-    "intelligence": 7,
-    "skill": "spellcraft",
-    "max_level": 3
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_aer",
+    "color": "yellow",
+    "name": { "str": "aer crystal", "str_pl": "aer crystals" },
+    "description": "A yellow translucent chunk of crystalized aer, the aspect of air and wind.  It seems almost weightless.",
+    "weight": "1 mg"
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_technomancer_tier_2",
-    "name": { "str": "Advanced Technomancer Theory", "str_pl": "Advanced Technomancer Theories" },
-    "description": "An advanced understanding of technomancer magic.",
-    "intelligence": 9,
-    "skill": "spellcraft",
-    "max_level": 5
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_alienis",
+    "color": "magenta",
+    "name": { "str": "alienis crystal", "str_pl": "alienis crystals" },
+    "description": "A purple chunk of crystalized alienis, the aspect of eldritch and ailien.  It seems to contain a star field in the back.  The way it paralaxes seems impossible."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_technomancer_tier_3",
-    "name": { "str": "Expert Technomancer Theory", "str_pl": "Expert Technomancer Theories" },
-    "description": "An expert level understanding of technomancer magic.",
-    "intelligence": 9,
-    "skill": "spellcraft",
-    "max_level": 7
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_aqua",
+    "color": "cyan",
+    "name": { "str": "aqua crystal", "str_pl": "aqua crystals" },
+    "description": "A soft blue chunk of aqua, the aspect of water.  Handling it seems to leave your hands slightly damp."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "spell_scroll_create_rune_technomancer",
-    "//": "Technomancer spell",
-    "name": { "str": "Scroll of Technomancer Rune", "str_pl": "Scrolls of Technomancer Rune" },
-    "description": "This ritual creates a small pebble attuned to Technomancers.  You can use the rune as a catalyst for recipes.",
-    "use_action": { "type": "learn_spell", "spells": [ "create_rune_technomancer" ] }
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_arbor",
+    "color": "brown",
+    "name": { "str": "arbor crystal", "str_pl": "arbor crystals" },
+    "description": "A rough brown chunk of crystalized arbor, the aspect of trees.  Or perhaps it's just a mundane chunk of bark?  When you hold it to your ear, you can hear the soft creaking of wood."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_earthshaper_tier_0",
-    "name": { "str": "Basic Earthshaper Theory", "str_pl": "Basic Earthshaper Theories" },
-    "description": "A most basic understanding of earthshaper magic.  Earthshapers have allowed their minds to sink deep within the stones and metals of the planet, and become one with its secrets.  To a master Earthshaper, spells can be as permanent as the stones they are created from, and time is measured in geological eras.",
-    "intelligence": 5,
-    "skill": "spellcraft",
-    "max_level": 1
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_auram",
+    "color": "light_red",
+    "name": { "str": "auram crystal", "str_pl": "auram crystals" },
+    "description": "A smooth pink gem of crystalized auram, the aspect of the aura.  It seems to have more inertia than its weight would suggest."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_earthshaper_tier_1",
-    "name": { "str": "Intermediate Earthshaper Theory", "str_pl": "Intermediate Earthshaper Theories" },
-    "description": "An intermediate understanding of earthshaper magic.",
-    "intelligence": 7,
-    "skill": "spellcraft",
-    "max_level": 3
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_bestia",
+    "color": "brown",
+    "name": { "str": "bestia crystal", "str_pl": "bestia crystals" },
+    "description": "A small fury warm thing that seems to have a faint heartbeat.  Presumably this is crystalized bestia, the aspect of animals."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_earthshaper_tier_2",
-    "name": { "str": "Advanced Earthshaper Theory", "str_pl": "Advanced Earthshaper Theories" },
-    "description": "An advanced understanding of earthshaper magic.",
-    "intelligence": 9,
-    "skill": "spellcraft",
-    "max_level": 5
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_cognito",
+    "color": "light_red",
+    "name": { "str": "cognito crystal", "str_pl": "cognito crystals" },
+    "description": "What seems like sharp glass shard with paper pages enbedded within is acutaly crystalized cognito, the aspect of mind, knowledge, and information.  You know this for certain.  The text within shifts as you change perspective."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_earthshaper_tier_3",
-    "name": { "str": "Expert Earthshaper Theory", "str_pl": "Expert Earthshaper Theories" },
-    "description": "An expert level understanding of earthshaper magic.",
-    "intelligence": 9,
-    "skill": "spellcraft",
-    "max_level": 7
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_corpus",
+    "color": "red",
+    "name": { "str": "corpus crystal", "str_pl": "corpus crystals" },
+    "description": "This looks like a tiny scrap of edible meat, fresh enough to twitch.  It is actually crystalized corpus, the aspect of flesh, blood, skin, and bone.  Anything that comes into contact with it is stained by blood."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "spell_scroll_create_rune_earthshaper",
-    "//": "Earthshaper spell",
-    "name": { "str": "Scroll of Earthshaper Rune", "str_pl": "Scrolls of Earthshaper Rune" },
-    "description": "This ritual creates a small pebble attuned to Earthshapers.  You can use the rune as a catalyst for recipes.",
-    "use_action": { "type": "learn_spell", "spells": [ "create_rune_earthshaper" ] }
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_exanimis",
+    "color": "brown",
+    "name": { "str": "exanimis crystal", "str_pl": "exanimis crystals" },
+    "description": "A smal lump of perpetually rottening flesh leaking a black, stycky fluid.  It is crystalized exanimis, the aspect of undeath.  Holding this fills you with a feeling of primordial dread.  How curious."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "spell_scroll_move_earth",
-    "//": "Earthshaper spell",
-    "name": { "str": "Scroll of Move Earth", "str_pl": "Scrolls of Move Earth" },
-    "description": "Your essence flows around you, and the earth follows.",
-    "use_action": { "type": "learn_spell", "spells": [ "move_earth" ] }
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_fabrico",
+    "color": "blue",
+    "name": { "str": "fabrico crystal", "str_pl": "fabrico crystals" },
+    "description": "This tiny lump of soft damp clay slowly flows into the shape of various ceramics and then back again.  It is crystalized fabrico, the aspect of crafting and repairing."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "spell_scroll_soulrend",
-    "//": "Animist spell",
-    "name": { "str": "Scroll of Soulrend", "str_pl": "Scrolls of Soulrend" },
-    "description": "Violently tears the spirit from the body, and bounds the resulting shade to your will.",
-    "use_action": { "type": "learn_spell", "spells": [ "soulrend" ] }
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_fames",
+    "color": "magenta",
+    "name": { "str": "fames crystal", "str_pl": "fames crystals" },
+    "description": "This looks and feels like a lump of pemmican, but is actually crystalized fames, the aspect of food and hunger.  It smells mouth-wateringly delicious."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_animist_tier_0",
-    "name": { "str": "Basic Animist Theory", "str_pl": "Basic Animist Theories" },
-    "description": "A most basic understanding of animist magic.  The animist tradition is a relatively new school of magical thought, formed through combination of many older ways that focus on harmony and connection to the natural world.  This does not mean that animists are passive: the natural world is a savage place.",
-    "intelligence": 5,
-    "skill": "spellcraft",
-    "max_level": 1
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_gelum",
+    "color": "light_cyan",
+    "name": { "str": "fames crystal", "str_pl": "fames crystals" },
+    "description": "A frigid blue ice-like crystal of gelum, the aspect of cold and ice.  Holding it saps the heat from your hands."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_animist_tier_1",
-    "name": { "str": "Intermediate Animist Theory", "str_pl": "Intermediate Animist Theories" },
-    "description": "An intermediate understanding of animist magic.",
-    "intelligence": 7,
-    "skill": "spellcraft",
-    "max_level": 3
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_herba",
+    "color": "green",
+    "name": { "str": "herba crystal", "str_pl": "herba crystals" },
+    "description": "A green leaf-shaped crystal of herba, the aspect of plants.  It smells like leaves."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_animist_tier_2",
-    "name": { "str": "Advanced Animist Theory", "str_pl": "Advanced Animist Theories" },
-    "description": "An advanced understanding of animist magic.",
-    "intelligence": 9,
-    "skill": "spellcraft",
-    "max_level": 5
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_humanus",
+    "color": "light_red",
+    "name": { "str": "herba crystal", "str_pl": "herba crystals" },
+    "description": "This looks like a tiny porcelain person rolled up in fetal position.  It is crystalized humanus, the aspect of humanity."
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "research_animist_tier_3",
-    "name": { "str": "Expert Animist Theory", "str_pl": "Expert Animist Theories" },
-    "description": "An expert level understanding of animist magic.",
-    "intelligence": 9,
-    "skill": "spellcraft",
-    "max_level": 7
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_ignis",
+    "color": "red",
+    "name": { "str": "ignis crystal", "str_pl": "ignis crystals" },
+    "description": "This looks like a candle's flame frozen in time.  It is almost too hot to handle, and seems to be almost as light as air.  It is crystalized ignis, the aspect of fire.",
+    "weight": "1 mg"
   },
   {
-    "type": "BOOK",
-    "copy-from": "spell_scroll",
-    "id": "spell_scroll_create_rune_animist",
-    "//": "Earthshaper spell",
-    "name": { "str": "Scroll of Animist Rune", "str_pl": "Scrolls of Animist Rune" },
-    "description": "This ritual creates a small pebble attuned to Animist.  You can use the rune as a catalyst for recipes.",
-    "use_action": { "type": "learn_spell", "spells": [ "create_rune_animist" ] }
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_instrumentum",
+    "color": "blue",
+    "name": { "str": "instrumentum crystal", "str_pl": "instrumentum crystals" },
+    "description": "This looks like a handle to some sort of tool.  It smells of sawdust and welding gass.  It is crystalized instrumentum, the aspect of tools."
   },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_iter",
+    "color": "green",
+    "name": { "str": "iter crystal", "str_pl": "iter crystals" },
+    "description": "A round disc that displays faraway places when gazed into.  The location shifts depending on the angle you're holding it in.  It is crystalized iter, the aspect of travel."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_limus",
+    "color": "green",
+    "name": { "str": "limus crystal", "str_pl": "limus crystals" },
+    "description": "This is a sticky green ball of semi-crystalized limus, the aspect of slime."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_lucrum",
+    "color": "yellow",
+    "name": { "str": "lucrum crystal", "str_pl": "lucrum crystals" },
+    "description": "This nugget of essentia looks like gold coins and precious gems fused together.  It is crystalized lucrum, the aspect of greed and wealth.  Holding it makes you want more.  Much more."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_lux",
+    "color": "white",
+    "name": { "str": "lux crystal", "str_pl": "lux crystals" },
+    "description": "This blindingly white crystal seems to be backlit, yet it does not illuminate the surrounding area.  It is crystalized lux, the aspect of light."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_machina",
+    "color": "light_gray",
+    "name": { "str": "machina crystal", "str_pl": "machina crystals" },
+    "description": "This lump of complex clockwork is crystalized machina, the aspect of machines and devices.  A faint ticking can be heard as the cogwheels keep turning."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_messis",
+    "color": "brown",
+    "name": { "str": "messis crystal", "str_pl": "messis crystals" },
+    "description": "This lump of grains is crystalized messis, the aspect of crops and cultivated plants.  It smells like upturned earth."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_metallum",
+    "color": "light_gray",
+    "name": { "str": "metallum crystal", "str_pl": "metallum crystals" },
+    "description": "This finger sized ingot of metal is crystalized metallum, the aspect of metal.  The hue is slowly changing.",
+    "weight": "400 mg"
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_meto",
+    "color": "light_gray",
+    "name": { "str": "meto crystal", "str_pl": "meto crystals" },
+    "description": "A tiny sickle, smelling of hay. It is crystalized meto, the aspect of harvest."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_mortuus",
+    "color": "white",
+    "name": { "str": "mortuus crystal", "str_pl": "mortuus crystals" },
+    "description": "Bones and skulls seems to have fused together to form this lump of crystalized mortuus, the aspect of death."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_motus",
+    "color": "green",
+    "name": { "str": "motus crystal", "str_pl": "motus crystals" },
+    "description": "This green rubbery ball rolls around on its own when let go.  It is crystalized motus, the aspect of motion."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_ordo",
+    "color": "green",
+    "name": { "str": "ordo crystal", "str_pl": "ordo crystals" },
+    "description": "This perfectly symetrical transparent crystal is made of ordo, the aspect of order.  When in direct sunlight, it projects tiny rainbows on nearby surfaces."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_pannus",
+    "color": "green",
+    "name": { "str": "pannus crystal", "str_pl": "pannus crystals" },
+    "description": "This tiny scrap of cloth is actually pannus, the aspect of cloth and clothing.  It is increadibly soft and confy to the touch."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_perditio",
+    "color": "green",
+    "name": { "str": "perditio crystal", "str_pl": "perditio crystals" },
+    "description": "This black cracked asymetrical crystal seems to have a lightning storm inside. It is crystalized perditio, the aspect of chaos."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_perfodio",
+    "color": "green",
+    "name": { "str": "perfodio crystal", "str_pl": "perfodio crystals" },
+    "description": "This chink of rock has signs of being recently dug out. It is crystalized perfodio, the aspect of mining."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_permutatio",
+    "color": "green",
+    "name": { "str": "permutatio crystal", "str_pl": "permutatio crystals" },
+    "description": "This small sliver of matter rapidly changes between different materials.  It is crystalized permutatio, the aspect of change, transformation, trade, and exchange."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_potentia",
+    "color": "green",
+    "name": { "str": "potentia crystal", "str_pl": "potentia crystals" },
+    "description": "This lump of amber seems to give you a tiny static shock each time you touch it.  It is crystalized potentia, the aspect of energy."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_potentia",
+    "color": "green",
+    "name": { "str": "potentia crystal", "str_pl": "potentia crystals" },
+    "description": "This purple crystal has sharp edges and faintly pulses with arcane energy.  It is crystalized potentia, the aspect of magic itself."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_sano",
+    "color": "green",
+    "name": { "str": "sano crystal", "str_pl": "sano crystals" },
+    "description": "This pinkish red opaque ovoid is smooth to the touch.  It is crystalized sano, the aspect of healing.  Holding it seems to have a slight calming effect."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_sensus",
+    "color": "green",
+    "name": { "str": "sensus crystal", "str_pl": "sensus crystals" },
+    "description": "This small sphere seems to shift colour, texture and even smell over time.  It is crystalized sensus, the aspect of senses."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_spiritus",
+    "color": "green",
+    "name": { "str": "spiritus crystal", "str_pl": "spiritus crystals" },
+    "description": "Faces swirl inside this dark purple crystal.  Clinking, glowing, pleading.  It is crystalized spiritus, the aspect of souls."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_telum",
+    "color": "green",
+    "name": { "str": "telum crystal", "str_pl": "telum crystals" },
+    "description": "This extremely sharp red crystal seems to be stained by blood.  Handeling it seems to leave cuts on your hands.  It is crystalized telum, the aspect of weapons and the causing of wounds.",
+    "to_hit": 1
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_tempestas",
+    "color": "green",
+    "name": { "str": "tempestas crystal", "str_pl": "tempestas crystals" },
+    "description": "This looks like a rainstorm caught inside a smooth opal.  The coulds are slowly churning.  It is crystalized tempestas, the aspect of weather."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_tenebrae",
+    "color": "green",
+    "name": { "str": "tenebrae crystal", "str_pl": "tenebrae crystals" },
+    "description": "This rough hard crystal is completely black, hiding any shape except the outer contour.  Your eyes can't discern its shape or dimensions, confusing your brain.  It is crystalized tenebrae, the aspect of darkness and the absense of light."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_tenebrae",
+    "color": "green",
+    "name": { "str": "tenebrae crystal", "str_pl": "tenebrae crystals" },
+    "description": "This rough hard crystal is completely black, hiding any shape except the outer contour.  Your eyes can't discern its shape or dimensions, confusing your brain like an optical illusion.  It is crystalized tenebrae, the aspect of darkness and the absense of light."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_terra",
+    "color": "green",
+    "name": { "str": "terra crystal", "str_pl": "terra crystals" },
+    "description": "This looks and smells like a lump of damp earth.  It is crystalized terra, the aspect of earth."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_tutamen",
+    "color": "green",
+    "name": { "str": "tutamen crystal", "str_pl": "tutamen crystals" },
+    "description": "This tinly lump of scraps seems to come from tiny plate armors.  It is crystalized tutamen, the aspect of armor and protection."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_vacuos",
+    "color": "green",
+    "name": { "str": "vacuos crystal", "str_pl": "vacuos crystals" },
+    "description": "A tiny bubble of less than nothing trapped in clear crystal. It is crystalized vacuos, the aspect of void, emptiness, and nothing."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_venenum",
+    "color": "green",
+    "name": { "str": "venenum crystal", "str_pl": "venenum crystals" },
+    "description": "A a sickly green chunk of crystalized venenum, the aspect of poisons, venoms, and toxins.  It causes mild rashes on contact with skin."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_victus",
+    "color": "green",
+    "name": { "str": "victus crystal", "str_pl": "victus crystals" },
+    "description": "This vibrant red crystal of victus essentia seems to beat to a faint heartbeat. It is the aspect of life."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_vinculum",
+    "color": "green",
+    "name": { "str": "vinculum crystal", "str_pl": "vinculum crystals" },
+    "description": "This small brown crystal is extremely sticky, adhering itself to anything it touches.  It is crystalized vinculum, the aspect of trapping."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_vitium",
+    "color": "green",
+    "name": { "str": "vitium crystal", "str_pl": "vitium crystals" },
+    "description": "This black crystal is disturbingly slick and warm to the touch.  It seems to wiggle occasionally when viewed from the corner of your eye.  It is crystalized vitium, the aspect of taint and magic gone wrong."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_vitreus",
+    "color": "green",
+    "name": { "str": "vitreus crystal", "str_pl": "vitreus crystals" },
+    "description": "This looks like a rough glass shard, but is actually crystalized vitreus, the aspect of crystals.  Its shape slowly morphs while remaining sharp."
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_volatus",
+    "color": "green",
+    "name": { "str": "volatus crystal", "str_pl": "volatus crystals" },
+    "description": "This yellow translucent shard seems to be lighter than air.  It slowly drifts away through the air if given the chance.  It is crystalized volatus, the aspect of flight.",
+    "weight": "1 mg"
+  }
 ]
