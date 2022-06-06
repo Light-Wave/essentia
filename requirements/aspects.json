@@ -52,7 +52,7 @@
         [ "cable", 1 ],
         [ "wire", 1 ],
         [ "copper_wire", 1 ],
-        [ "solder", 1 ],
+        [ "solder_wire", 1 ],
         [ "battery", 5 ]
       ]
     ]
@@ -185,7 +185,7 @@
     "//": "Exchange.",
     "components": [
       [
-        [ "farming_seeds", 1, "LIST" ],
+        [ "farming_seeds_req", 1, "LIST" ],
         [ "eggs_bird", 1, "LIST" ],
         [ "egg_reptile", 1 ],
         [ "eggs_insect", 1, "LIST" ],

@@ -39,5 +39,47 @@
         [ "emergency_lockpick", 1 ]
       ]
     ]
+  },
+  {
+    "type": "requirement",
+    "id": "farming_seeds_req",
+    "components": [
+      [
+        [ "seed_blueberries", 60 ],
+        [ "seed_strawberries", 60 ],
+        [ "seed_blackberries", 60 ],
+        [ "seed_cranberries", 60 ],
+        [ "seed_raspberries", 60 ],
+        [ "seed_wheat", 60 ],
+        [ "seed_barley", 60 ],
+        [ "seed_sugar_beet", 60 ],
+        [ "seed_lettuce", 60 ],
+        [ "seed_cabbage", 60 ],
+        [ "seed_onion", 60 ],
+        [ "seed_carrot", 60 ],
+        [ "seed_sunflower", 60 ],
+        [ "seed_watermelon", 60 ],
+        [ "seed_pumpkin", 60 ],
+        [ "seed_corn", 60 ],
+        [ "seed_oats", 60 ],
+        [ "soybean_seed", 60 ],
+        [ "seed_broccoli", 60 ],
+        [ "seed_celery", 60 ],
+        [ "seed_cucumber", 60 ],
+        [ "seed_potato_raw", 60 ],
+        [ "seed_zucchini", 60 ],
+        [ "seed_cotton_boll", 10 ],
+        [ "seed_tobacco", 10 ],
+        [ "seed_cactus", 10 ],
+        [ "seed_flower", 60 ],
+        [ "seed_beans", 60 ],
+        [ "seed_chili_pepper", 60 ],
+        [ "seed_tomato", 60 ],
+        [ "seed_horseradish", 10 ],
+        [ "seed_spurge", 10 ],
+        [ "seed_popcorn", 10 ],
+        [ "seed_mustard", 10 ]
+      ]
+    ]
   }
 ]
