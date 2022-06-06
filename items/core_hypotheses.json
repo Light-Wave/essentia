@@ -1,0 +1,43 @@
+[
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_thaumatology_t0",
+    "name": { "str": "fundamental thaumaturgic theory", "str_pl": "fundamental thaumaturgic theories" },
+    "description": "It came to you in a dream.  A way to crystalize certain elemental aspects of an object.  All you need is a runestone, and the will to investigate.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_thaumatology_t0",
+      "tools_needed" : { "rune_thaumatology" : -1 }
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_thaumatology_t1",
+    "name": { "str": "compound thaumaturgic theory", "str_pl": "compound thaumaturgic theories" },
+    "description": "With the fundamental elements covered, it's time to see what more can be done with these crystals.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_thaumatology_t1"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_thaumatology_t2",
+    "name": { "str": "advanced essentia theory", "str_pl": "advanced essentia theories" },
+    "description": "Trying to create more complex aspects seems to create unstable crystals that imedietly decay into their compound aspects.  Yet you are confident there are more aspects out there to explore.  You will have to change your approach.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_thaumatology_t2"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_witchcraft",
+    "name": { "str": "a master thaumologit's observations on witchcraft", "str_pl": "copies of a master thaumologit's observations on witchcraft" },
+    "description": "Domination and harmony seems to be in constant conflict.  Both in the world, and within yourself.  There ought to be a way to draw power from both sides.  [[DO NOT DO THIS!!!]]",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_witchcraft"
+    }
+  }
+]

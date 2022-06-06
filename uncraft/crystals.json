@@ -1,0 +1,11 @@
+[
+  {
+    "type": "uncraft",
+    "activity_level": "fake",
+    "result": "stick",
+    "using": [ [ "req_research_basic", 1 ] ],
+    "time": "50 s",
+    "skill_used": "fabrication",
+    "components": [ [ [ "plastic_chunk", 1 ], [ "steel_lump", 1 ], [ "e_scrap", 1 ], [ "motor_micro", 1 ] ] ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "copy-from": "chemistry_set",
+    "extend":  { "qualities": [ [ "SUBLIMATION", 1 ] ] }
+  },
+  {
+    "copy-from": "chemistry_set_basic",
+    "extend":  { "qualities": [ [ "SUBLIMATION", 1 ] ] }
+  },
+  {
+    "id": "sublimation_pots_clay",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "sublimation pots" },
+    "description": "Also known as tiryak patana yantra, these two clay vessels are connected by a clay tube.  It is used to separate compounds though sublimation and deposition.",
+    "weight": "1000 g",
+    "volume": "4300 ml",
+    "price": 2500,
+    "price_postapoc": 10,
+    "bashing": 1,
+    "to_hit": -1,
+    "material": [ "clay" ],
+    "symbol": "H",
+    "color": "brown",
+    "qualities": [ [ "SUBLIMATION", 1 ] ]
+  }
+]

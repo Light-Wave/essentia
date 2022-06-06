@@ -1,0 +1,530 @@
+[
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_aer",
+    "color": "yellow",
+    "name": { "str": "aer theory", "str_pl": "aer theories" },
+    "description": "A studdy on aer, the aspect of air and wind.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_aer"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_alienis",
+    "color": "magenta",
+    "name": { "str": "alienis theory", "str_pl": "alienis theories" },
+    "description": "A studdy on alienis, the aspect of eldritch and ailien.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_alienis"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_aqua",
+    "color": "cyan",
+    "name": { "str": "aqua theory", "str_pl": "aqua theories" },
+    "description": "A studdy on aqua, the aspect of water.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_aqua"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_arbor",
+    "color": "brown",
+    "name": { "str": "arbor theory", "str_pl": "arbor theories" },
+    "description": "A studdy on arbor, the aspect of trees.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_arbor"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_auram",
+    "color": "light_red",
+    "name": { "str": "auram theory", "str_pl": "auram theories" },
+    "description": "A studdy on auram, the aspect of the aura.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_auram"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_bestia",
+    "color": "brown",
+    "name": { "str": "bestia theory", "str_pl": "bestia theories" },
+    "description": "A studdy on bestia, the aspect of animals.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_bestia"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_cognito",
+    "color": "light_red",
+    "name": { "str": "cognito theory", "str_pl": "cognito theories" },
+    "description": "A studdy on cognito, the aspect of mind, knowledge, and information.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_cognito"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_corpus",
+    "color": "red",
+    "name": { "str": "corpus theory", "str_pl": "corpus theories" },
+    "description": "A studdy on corpus, the aspect of flesh, blood, skin, and bone.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_corpus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_exanimis",
+    "color": "brown",
+    "name": { "str": "exanimis theory", "str_pl": "exanimis theories" },
+    "description": "A studdy on exanimis, the aspect of undeath.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_exanimis"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_fabrico",
+    "color": "blue",
+    "name": { "str": "fabrico theory", "str_pl": "fabrico theories" },
+    "description": "A studdy on fabrico, the aspect of crafting and repairing.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_fabrico"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_fames",
+    "color": "magenta",
+    "name": { "str": "fames theory", "str_pl": "fames theories" },
+    "description": "A studdy on fames, the aspect of food and hunger.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_fames"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_gelum",
+    "color": "light_cyan",
+    "name": { "str": "fames theory", "str_pl": "fames theories" },
+    "description": "A studdy on gelum, the aspect of cold and ice.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_gelum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_herba",
+    "color": "green",
+    "name": { "str": "herba theory", "str_pl": "herba theories" },
+    "description": "A studdy on herba, the aspect of plants.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_herba"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_humanus",
+    "color": "light_red",
+    "name": { "str": "herba theory", "str_pl": "herba theories" },
+    "description": "A studdy on humanus, the aspect of humanity.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_humanus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_ignis",
+    "color": "red",
+    "name": { "str": "ignis theory", "str_pl": "ignis theories" },
+    "description": "A studdy on ignis, the aspect of fire.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_ignis"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_instrumentum",
+    "color": "blue",
+    "name": { "str": "instrumentum theory", "str_pl": "instrumentum theories" },
+    "description": "A studdy on instrumentum, the aspect of tools.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_instrumentum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_iter",
+    "color": "green",
+    "name": { "str": "iter theory", "str_pl": "iter theories" },
+    "description": "A studdy on iter, the aspect of travel.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_iter"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_limus",
+    "color": "green",
+    "name": { "str": "limus theory", "str_pl": "limus theories" },
+    "description": "A studdy on limus, the aspect of slime.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_limus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_lucrum",
+    "color": "yellow",
+    "name": { "str": "lucrum theory", "str_pl": "lucrum theories" },
+    "description": "A studdy on lucrum, the aspect of greed and wealth.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_lucrum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_lux",
+    "color": "white",
+    "name": { "str": "lux theory", "str_pl": "lux theories" },
+    "description": "A studdy on lux, the aspect of light.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_lux"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_machina",
+    "color": "light_gray",
+    "name": { "str": "machina theory", "str_pl": "machina theories" },
+    "description": "A studdy on machina, the aspect of machines and devices.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_machina"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_messis",
+    "color": "brown",
+    "name": { "str": "messis theory", "str_pl": "messis theories" },
+    "description": "A studdy on messis, the aspect of crops and cultivated plants.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_messis"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_metallum",
+    "color": "light_gray",
+    "name": { "str": "metallum theory", "str_pl": "metallum theories" },
+    "description": "A studdy on metallum, the aspect of metal.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_metallum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_meto",
+    "color": "light_gray",
+    "name": { "str": "meto theory", "str_pl": "meto theories" },
+    "description": "A studdy on meto, the aspect of harvest.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_meto"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_mortuus",
+    "color": "white",
+    "name": { "str": "mortuus theory", "str_pl": "mortuus theories" },
+    "description": "A studdy on mortuus, the aspect of death.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_mortuus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_motus",
+    "color": "green",
+    "name": { "str": "motus theory", "str_pl": "motus theories" },
+    "description": "A studdy on motus, the aspect of motion.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_motus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_ordo",
+    "color": "white",
+    "name": { "str": "ordo theory", "str_pl": "ordo theories" },
+    "description": "A studdy on ordo, the aspect of order.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_ordo"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_pannus",
+    "color": "light_green",
+    "name": { "str": "pannus theory", "str_pl": "pannus theories" },
+    "description": "A studdy on pannus, the aspect of cloth and clothing.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_pannus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_perditio",
+    "color": "black",
+    "name": { "str": "perditio theory", "str_pl": "perditio theories" },
+    "description": "A studdy on perditio, the aspect of chaos.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_perditio"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_perfodio",
+    "color": "light_gray",
+    "name": { "str": "perfodio theory", "str_pl": "perfodio theories" },
+    "description": "A studdy on perfodio, the aspect of mining.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_perfodio"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_permutatio",
+    "color": "green",
+    "name": { "str": "permutatio theory", "str_pl": "permutatio theories" },
+    "description": "A studdy on permutatio, the aspect of change, transformation, trade, and exchange.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_permutatio"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_potentia",
+    "color": "yellow",
+    "name": { "str": "potentia theory", "str_pl": "potentia theories" },
+    "description": "A studdy on potentia, the aspect of energy.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_potentia"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_praecantatio",
+    "color": "magenta",
+    "name": { "str": "praecantatio theory", "str_pl": "praecantatio theories" },
+    "description": "A studdy on praecantatio, the aspect of magic itself.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_praecantatio"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_sano",
+    "color": "pink",
+    "name": { "str": "sano theory", "str_pl": "sano theories" },
+    "description": "A studdy on sano, the aspect of healing.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_sano"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_sensus",
+    "color": "cyan",
+    "name": { "str": "sensus theory", "str_pl": "sensus theories" },
+    "description": "A studdy on sensus, the aspect of senses.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_sensus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_spiritus",
+    "color": "light_gray",
+    "name": { "str": "spiritus theory", "str_pl": "spiritus theories" },
+    "description": "A studdy on spiritus, the aspect of souls.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_spiritus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_telum",
+    "color": "red",
+    "name": { "str": "telum theory", "str_pl": "telum theories" },
+    "description": "A studdy on telum, the aspect of weapons and the causing of wounds.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_telum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_tempestas",
+    "color": "light_gray",
+    "name": { "str": "tempestas theory", "str_pl": "tempestas theories" },
+    "description": "A studdy on tempestas, the aspect of weather.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_tempestas"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_tenebrae",
+    "color": "black",
+    "name": { "str": "tenebrae theory", "str_pl": "tenebrae theories" },
+    "description": "A studdy on tenebrae, the aspect of darkness and the absense of light.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_tenebrae"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_terra",
+    "color": "brown",
+    "name": { "str": "terra theory", "str_pl": "terra theories" },
+    "description": "A studdy on terra, the aspect of earth.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_terra"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_tutamen",
+    "color": "blue",
+    "name": { "str": "tutamen theory", "str_pl": "tutamen theories" },
+    "description": "A studdy on tutamen, the aspect of armor and protection.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_tutamen"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_vacuos",
+    "color": "dark_gray",
+    "name": { "str": "vacuos theory", "str_pl": "vacuos theories" },
+    "description": "AA studdy on vacuos, the aspect of void, emptiness, and nothing.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_vacuos"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_venenum",
+    "color": "light_green",
+    "name": { "str": "venenum theory", "str_pl": "venenum theories" },
+    "description": "A studdy on venenum, the aspect of poisons, venoms, and toxins.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_venenum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_victus",
+    "color": "red",
+    "name": { "str": "victus theory", "str_pl": "victus theories" },
+    "description": "A studdy on victus, the aspect of life.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_victus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_vinculum",
+    "color": "brown",
+    "name": { "str": "vinculum theory", "str_pl": "vinculum theories" },
+    "description": "A studdy on vinculum, the aspect of trapping.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_vinculum"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_vitium",
+    "color": "black",
+    "name": { "str": "vitium theory", "str_pl": "vitium theories" },
+    "description": "A studdy on vitium, the aspect of taint and magic gone wrong.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_vitium"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_vitreus",
+    "color": "white",
+    "name": { "str": "vitreus theory", "str_pl": "vitreus theories" },
+    "description": "A studdy on vitreus, the aspect of crystals.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_vitreus"
+    }
+  },
+  {
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_volatus",
+    "color": "yellow",
+    "name": { "str": "volatus theory", "str_pl": "volatus theories" },
+    "description": "A studdy on volatus, the aspect of flight.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_volatus"
+    }
+  }
+]

@@ -15,6 +15,14 @@
   },
   {
     "copy-from": "essentia_crystal_abstract",
+    "id": "crystal_slag",
+    "color": "purple",
+    "name": { "str": "thaumic slag" },
+    "description": "A purple metallic twisted lump of thaumic slag.",
+    "weight": "1 mg"
+  },
+  {
+    "copy-from": "essentia_crystal_abstract",
     "id": "crystal_aer",
     "color": "yellow",
     "name": { "str": "aer crystal", "str_pl": "aer crystals" },
@@ -201,28 +209,28 @@
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_ordo",
-    "color": "green",
+    "color": "white",
     "name": { "str": "ordo crystal", "str_pl": "ordo crystals" },
     "description": "This perfectly symetrical transparent crystal is made of ordo, the aspect of order.  When in direct sunlight, it projects tiny rainbows on nearby surfaces."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_pannus",
-    "color": "green",
+    "color": "light_green",
     "name": { "str": "pannus crystal", "str_pl": "pannus crystals" },
     "description": "This tiny scrap of cloth is actually pannus, the aspect of cloth and clothing.  It is increadibly soft and confy to the touch."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_perditio",
-    "color": "green",
+    "color": "black",
     "name": { "str": "perditio crystal", "str_pl": "perditio crystals" },
     "description": "This black cracked asymetrical crystal seems to have a lightning storm inside. It is crystalized perditio, the aspect of chaos."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_perfodio",
-    "color": "green",
+    "color": "light_gray",
     "name": { "str": "perfodio crystal", "str_pl": "perfodio crystals" },
     "description": "This chink of rock has signs of being recently dug out. It is crystalized perfodio, the aspect of mining."
   },
@@ -236,42 +244,42 @@
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_potentia",
-    "color": "green",
+    "color": "yellow",
     "name": { "str": "potentia crystal", "str_pl": "potentia crystals" },
     "description": "This lump of amber seems to give you a tiny static shock each time you touch it.  It is crystalized potentia, the aspect of energy."
   },
   {
     "copy-from": "essentia_crystal_abstract",
-    "id": "crystal_potentia",
-    "color": "green",
-    "name": { "str": "potentia crystal", "str_pl": "potentia crystals" },
-    "description": "This purple crystal has sharp edges and faintly pulses with arcane energy.  It is crystalized potentia, the aspect of magic itself."
+    "id": "crystal_praecantatio",
+    "color": "magenta",
+    "name": { "str": "praecantatio crystal", "str_pl": "praecantatio crystals" },
+    "description": "This purple crystal has sharp edges and faintly pulses with arcane energy.  It is crystalized praecantatio, the aspect of magic itself."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_sano",
-    "color": "green",
+    "color": "pink",
     "name": { "str": "sano crystal", "str_pl": "sano crystals" },
     "description": "This pinkish red opaque ovoid is smooth to the touch.  It is crystalized sano, the aspect of healing.  Holding it seems to have a slight calming effect."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_sensus",
-    "color": "green",
+    "color": "cyan",
     "name": { "str": "sensus crystal", "str_pl": "sensus crystals" },
     "description": "This small sphere seems to shift colour, texture and even smell over time.  It is crystalized sensus, the aspect of senses."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_spiritus",
-    "color": "green",
+    "color": "light_gray",
     "name": { "str": "spiritus crystal", "str_pl": "spiritus crystals" },
     "description": "Faces swirl inside this dark purple crystal.  Clinking, glowing, pleading.  It is crystalized spiritus, the aspect of souls."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_telum",
-    "color": "green",
+    "color": "red",
     "name": { "str": "telum crystal", "str_pl": "telum crystals" },
     "description": "This extremely sharp red crystal seems to be stained by blood.  Handeling it seems to leave cuts on your hands.  It is crystalized telum, the aspect of weapons and the causing of wounds.",
     "to_hit": 1
@@ -279,84 +287,77 @@
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_tempestas",
-    "color": "green",
+    "color": "light_gray",
     "name": { "str": "tempestas crystal", "str_pl": "tempestas crystals" },
     "description": "This looks like a rainstorm caught inside a smooth opal.  The coulds are slowly churning.  It is crystalized tempestas, the aspect of weather."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_tenebrae",
-    "color": "green",
-    "name": { "str": "tenebrae crystal", "str_pl": "tenebrae crystals" },
-    "description": "This rough hard crystal is completely black, hiding any shape except the outer contour.  Your eyes can't discern its shape or dimensions, confusing your brain.  It is crystalized tenebrae, the aspect of darkness and the absense of light."
-  },
-  {
-    "copy-from": "essentia_crystal_abstract",
-    "id": "crystal_tenebrae",
-    "color": "green",
+    "color": "black",
     "name": { "str": "tenebrae crystal", "str_pl": "tenebrae crystals" },
     "description": "This rough hard crystal is completely black, hiding any shape except the outer contour.  Your eyes can't discern its shape or dimensions, confusing your brain like an optical illusion.  It is crystalized tenebrae, the aspect of darkness and the absense of light."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_terra",
-    "color": "green",
+    "color": "brown",
     "name": { "str": "terra crystal", "str_pl": "terra crystals" },
     "description": "This looks and smells like a lump of damp earth.  It is crystalized terra, the aspect of earth."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_tutamen",
-    "color": "green",
+    "color": "blue",
     "name": { "str": "tutamen crystal", "str_pl": "tutamen crystals" },
     "description": "This tinly lump of scraps seems to come from tiny plate armors.  It is crystalized tutamen, the aspect of armor and protection."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vacuos",
-    "color": "green",
+    "color": "dark_gray",
     "name": { "str": "vacuos crystal", "str_pl": "vacuos crystals" },
     "description": "A tiny bubble of less than nothing trapped in clear crystal. It is crystalized vacuos, the aspect of void, emptiness, and nothing."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_venenum",
-    "color": "green",
+    "color": "light_green",
     "name": { "str": "venenum crystal", "str_pl": "venenum crystals" },
     "description": "A a sickly green chunk of crystalized venenum, the aspect of poisons, venoms, and toxins.  It causes mild rashes on contact with skin."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_victus",
-    "color": "green",
+    "color": "red",
     "name": { "str": "victus crystal", "str_pl": "victus crystals" },
     "description": "This vibrant red crystal of victus essentia seems to beat to a faint heartbeat. It is the aspect of life."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vinculum",
-    "color": "green",
+    "color": "brown",
     "name": { "str": "vinculum crystal", "str_pl": "vinculum crystals" },
     "description": "This small brown crystal is extremely sticky, adhering itself to anything it touches.  It is crystalized vinculum, the aspect of trapping."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vitium",
-    "color": "green",
+    "color": "black",
     "name": { "str": "vitium crystal", "str_pl": "vitium crystals" },
     "description": "This black crystal is disturbingly slick and warm to the touch.  It seems to wiggle occasionally when viewed from the corner of your eye.  It is crystalized vitium, the aspect of taint and magic gone wrong."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vitreus",
-    "color": "green",
+    "color": "white",
     "name": { "str": "vitreus crystal", "str_pl": "vitreus crystals" },
     "description": "This looks like a rough glass shard, but is actually crystalized vitreus, the aspect of crystals.  Its shape slowly morphs while remaining sharp."
   },
   {
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_volatus",
-    "color": "green",
+    "color": "yellow",
     "name": { "str": "volatus crystal", "str_pl": "volatus crystals" },
     "description": "This yellow translucent shard seems to be lighter than air.  It slowly drifts away through the air if given the chance.  It is crystalized volatus, the aspect of flight.",
     "weight": "1 mg"

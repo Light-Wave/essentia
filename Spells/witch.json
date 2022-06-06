@@ -1,0 +1,24 @@
+[
+  {
+    "id": "create_rune_witchcraft",
+    "type": "SPELL",
+    "name": { "str": "Witchcraft Rune" },
+    "description": "This ritual creates a small pebble attuned to Witchcraft.  You can use the rune as a catalyst for recipes.",
+    "valid_targets": [ "self" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "effect": "spawn_item",
+    "effect_str": "rune_witchcraft",
+    "shape": "blast",
+    "base_casting_time": 5000,
+    "base_energy_cost": 5,
+    "min_duration": 1,
+    "max_duration": 2,
+    "duration_increment": 1,
+    "difficulty": 0,
+    "max_level": 0,
+    "spell_class": "WITCH",
+    "energy_source": "MANA",
+    "flags": [ "PERMANENT", "NO_LEGS", "CONCENTRATE" ]
+  }
+]

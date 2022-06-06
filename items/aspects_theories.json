@@ -1,0 +1,338 @@
+[
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_aer",
+    "color": "yellow",
+    "name": { "str": "aer theory", "str_pl": "aer theories" },
+    "description": "A studdy on aer, the aspect of air and wind.  As a fundamental aspect, it can not be created from combining other aspects.  It is commonly found in objects with ties to air, or that has been exposed to wind.  Crystalized aer can be extracted by connecting two containers with a hose or pipe.  One of the containers are filled with aer rich materials and then heated.  The aer will sublimate, travel to the other cooler container, and then desublimate, resulting in yellow crystal.  Chewing on them seems to fill your lungs with air, which seems potentially useful when dealing with smoke or underwater enviroments.  It seems to be potentially possible to infuse items with these crystals to make them lighter."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_alienis",
+    "color": "magenta",
+    "name": { "str": "alienis theory", "str_pl": "alienis theories" },
+    "description": "A studdy on alienis, the aspect of eldritch and ailien."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_aqua",
+    "color": "cyan",
+    "name": { "str": "aqua theory", "str_pl": "aqua theories" },
+    "description": "A studdy on aqua, the aspect of water.  As a fundamental aspect, it can not be created from combining other aspects.  It is most commonly found in water, naturally.  Crystals can be extracted by letting a container of clean water slowly evaporate until only blue crystals remains at the bottom.  Chewing on them slakes your thirst, making them a potentailly convinient way of carrying drinking water.  Infusing objects with the crystals seems to make them more liquid, which might prove useful."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_arbor",
+    "color": "brown",
+    "name": { "str": "arbor theory", "str_pl": "arbor theories" },
+    "description": "A studdy on arbor, the aspect of trees."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_auram",
+    "color": "light_red",
+    "name": { "str": "auram theory", "str_pl": "auram theories" },
+    "description": "A studdy on auram, the aspect of the aura."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_bestia",
+    "color": "brown",
+    "name": { "str": "bestia theory", "str_pl": "bestia theories" },
+    "description": "A studdy on bestia, the aspect of animals."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_cognito",
+    "color": "light_red",
+    "name": { "str": "cognito theory", "str_pl": "cognito theories" },
+    "description": "A studdy on cognito, the aspect of mind, knowledge, and information."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_corpus",
+    "color": "red",
+    "name": { "str": "corpus theory", "str_pl": "corpus theories" },
+    "description": "A studdy on corpus, the aspect of flesh, blood, skin, and bone."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_exanimis",
+    "color": "brown",
+    "name": { "str": "exanimis theory", "str_pl": "exanimis theories" },
+    "description": "A studdy on exanimis, the aspect of undeath."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_fabrico",
+    "color": "blue",
+    "name": { "str": "fabrico theory", "str_pl": "fabrico theories" },
+    "description": "A studdy on fabrico, the aspect of crafting and repairing."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_fames",
+    "color": "magenta",
+    "name": { "str": "fames theory", "str_pl": "fames theories" },
+    "description": "A studdy on fames, the aspect of food and hunger."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_gelum",
+    "color": "light_cyan",
+    "name": { "str": "fames theory", "str_pl": "fames theories" },
+    "description": "A studdy on gelum, the aspect of cold and ice."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_herba",
+    "color": "green",
+    "name": { "str": "herba theory", "str_pl": "herba theories" },
+    "description": "A studdy on herba, the aspect of plants."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_humanus",
+    "color": "light_red",
+    "name": { "str": "herba theory", "str_pl": "herba theories" },
+    "description": "A studdy on humanus, the aspect of humanity."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_ignis",
+    "color": "red",
+    "name": { "str": "ignis theory", "str_pl": "ignis theories" },
+    "description": "A studdy on ignis, the aspect of fire.  As a fundamental aspect, it can not be created from combining other aspects.  It is most commonly found in water, naturally.  Crystals can be extracted by letting a container of clean water slowly evaporate until only blue crystals remains at the bottom.  Chewing on them slakes your thirst, making them a potentailly convinient way of carrying drinking water.  Infusing objects with the crystals seems to make them more liquid, which might prove useful."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_instrumentum",
+    "color": "blue",
+    "name": { "str": "instrumentum theory", "str_pl": "instrumentum theories" },
+    "description": "A studdy on instrumentum, the aspect of tools."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_iter",
+    "color": "green",
+    "name": { "str": "iter theory", "str_pl": "iter theories" },
+    "description": "A studdy on iter, the aspect of travel."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_limus",
+    "color": "green",
+    "name": { "str": "limus theory", "str_pl": "limus theories" },
+    "description": "A studdy on limus, the aspect of slime."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_lucrum",
+    "color": "yellow",
+    "name": { "str": "lucrum theory", "str_pl": "lucrum theories" },
+    "description": "A studdy on lucrum, the aspect of greed and wealth."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_lux",
+    "color": "white",
+    "name": { "str": "lux theory", "str_pl": "lux theories" },
+    "description": "A studdy on lux, the aspect of light."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_machina",
+    "color": "light_gray",
+    "name": { "str": "machina theory", "str_pl": "machina theories" },
+    "description": "A studdy on machina, the aspect of machines and devices."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_messis",
+    "color": "brown",
+    "name": { "str": "messis theory", "str_pl": "messis theories" },
+    "description": "A studdy on messis, the aspect of crops and cultivated plants."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_metallum",
+    "color": "light_gray",
+    "name": { "str": "metallum theory", "str_pl": "metallum theories" },
+    "description": "A studdy on metallum, the aspect of metal."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_meto",
+    "color": "light_gray",
+    "name": { "str": "meto theory", "str_pl": "meto theories" },
+    "description": "A studdy on meto, the aspect of harvest."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_mortuus",
+    "color": "white",
+    "name": { "str": "mortuus theory", "str_pl": "mortuus theories" },
+    "description": "A studdy on mortuus, the aspect of death."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_motus",
+    "color": "green",
+    "name": { "str": "motus theory", "str_pl": "motus theories" },
+    "description": "A studdy on motus, the aspect of motion."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_ordo",
+    "color": "white",
+    "name": { "str": "ordo theory", "str_pl": "ordo theories" },
+    "description": "A studdy on ordo, the aspect of order."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_pannus",
+    "color": "light_green",
+    "name": { "str": "pannus theory", "str_pl": "pannus theories" },
+    "description": "A studdy on pannus, the aspect of cloth and clothing."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_perditio",
+    "color": "black",
+    "name": { "str": "perditio theory", "str_pl": "perditio theories" },
+    "description": "A studdy on perditio, the aspect of chaos."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_perfodio",
+    "color": "light_gray",
+    "name": { "str": "perfodio theory", "str_pl": "perfodio theories" },
+    "description": "A studdy on perfodio, the aspect of mining."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_permutatio",
+    "color": "green",
+    "name": { "str": "permutatio theory", "str_pl": "permutatio theories" },
+    "description": "A studdy on permutatio, the aspect of change, transformation, trade, and exchange."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_potentia",
+    "color": "yellow",
+    "name": { "str": "potentia theory", "str_pl": "potentia theories" },
+    "description": "A studdy on potentia, the aspect of energy."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_praecantatio",
+    "color": "magenta",
+    "name": { "str": "praecantatio theory", "str_pl": "praecantatio theories" },
+    "description": "A studdy on praecantatio, the aspect of magic itself."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_sano",
+    "color": "pink",
+    "name": { "str": "sano theory", "str_pl": "sano theories" },
+    "description": "A studdy on sano, the aspect of healing."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_sensus",
+    "color": "cyan",
+    "name": { "str": "sensus theory", "str_pl": "sensus theories" },
+    "description": "A studdy on sensus, the aspect of senses."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_spiritus",
+    "color": "light_gray",
+    "name": { "str": "spiritus theory", "str_pl": "spiritus theories" },
+    "description": "A studdy on spiritus, the aspect of souls."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_telum",
+    "color": "red",
+    "name": { "str": "telum theory", "str_pl": "telum theories" },
+    "description": "A studdy on telum, the aspect of weapons and the causing of wounds."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_tempestas",
+    "color": "light_gray",
+    "name": { "str": "tempestas theory", "str_pl": "tempestas theories" },
+    "description": "A studdy on tempestas, the aspect of weather."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_tenebrae",
+    "color": "black",
+    "name": { "str": "tenebrae theory", "str_pl": "tenebrae theories" },
+    "description": "A studdy on tenebrae, the aspect of darkness and the absense of light."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_terra",
+    "color": "brown",
+    "name": { "str": "terra theory", "str_pl": "terra theories" },
+    "description": "A studdy on terra, the aspect of earth."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_tutamen",
+    "color": "blue",
+    "name": { "str": "tutamen theory", "str_pl": "tutamen theories" },
+    "description": "A studdy on tutamen, the aspect of armor and protection."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_vacuos",
+    "color": "dark_gray",
+    "name": { "str": "vacuos theory", "str_pl": "vacuos theories" },
+    "description": "AA studdy on vacuos, the aspect of void, emptiness, and nothing."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_venenum",
+    "color": "light_green",
+    "name": { "str": "venenum theory", "str_pl": "venenum theories" },
+    "description": "A studdy on venenum, the aspect of poisons, venoms, and toxins."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_victus",
+    "color": "red",
+    "name": { "str": "victus theory", "str_pl": "victus theories" },
+    "description": "A studdy on victus, the aspect of life."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_vinculum",
+    "color": "brown",
+    "name": { "str": "vinculum theory", "str_pl": "vinculum theories" },
+    "description": "A studdy on vinculum, the aspect of trapping."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_vitium",
+    "color": "black",
+    "name": { "str": "vitium theory", "str_pl": "vitium theories" },
+    "description": "A studdy on vitium, the aspect of taint and magic gone wrong."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_vitreus",
+    "color": "white",
+    "name": { "str": "vitreus theory", "str_pl": "vitreus theories" },
+    "description": "A studdy on vitreus, the aspect of crystals."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_volatus",
+    "color": "yellow",
+    "name": { "str": "volatus theory", "str_pl": "volatus theories" },
+    "description": "A studdy on volatus, the aspect of flight."
+  }
+]

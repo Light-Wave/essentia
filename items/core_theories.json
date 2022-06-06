@@ -1,0 +1,27 @@
+[
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_thaumatology_t0",
+    "name": { "str": "fundamental thaumaturgic theory", "str_pl": "fundamental thaumaturgic theories" },
+    "description": "It seems that under certain conditions, crystals with mysterious properties can be extracted from various kinds of matter.  These crystals does not seem to comform to your existing understanding of reality  But then again, that can be said about plenty of things that happened recently.  You have come to call the material these crystals are made out of 'essentia', as it seems to be an essence of the object it was extracted from.  The essentia comes in different flavours, or aspects, most seemingly representing a classical element.  The process of extracting them requires a focus of sorts.  Mages of old used small rocks inscribed with runes to focus their mystical power, and this seems to be a viable path here as well.  You have deviced several potential method of extracting these crystals, and styddying them closer is bound to reveal more insights into the way the world opperates."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_thaumatology_t1",
+    "name": { "str": "compound thaumaturgic theory", "str_pl": "compound thaumaturgic theories" },
+    "description": "Laws of physics, the primordial bedrock upon which our understanding of the natural world rested, was thought immutable.  Unfortunately, recent events seems to have proved it to be anything but.  The landscape has shifted and what was once familiar is so no longer.  However, as you dwelved into the mystery of the essentia crystals, you start to see a spark of hope.  The laws of nature might have changed, but they seem to have settled into a new order.  This order, it seems, can be studdied, understood, and with sufficient ingenuity, exploited.  It seems like the fundamental aspects you discovered earlier can be conbined into new and exiting forms.  And even though the machinery required to do so might be a bit cumbersome, it's a small price to pay for progress.  It seems your experimentation is creating some waste in the form of thaumic slag.  The slag seems to be composed of essentia that failed to be extracted from the raw material.  While you haven't found a use for it yet, it seems to disperse harmlessly on its own after a while."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_thaumatology_t2",
+    "name": { "str": "advanced essentia theory", "str_pl": "advanced essentia theories" },
+    "description": "Dwelving deeper into the mystery of essentia have come with a few drawbacks.  The smug sense of superiority that naturally accompanies anyone with your level of power.  The occational headace.  The overbearing desire to write excessively verbose and sesquipedalian research notes.  Anohter problem is the wasted efficiency the thaumic slag presents.  Each piece of slag is essentia you can't use.  You've come up with a few ideas on how to improve the efficiency of your production by working with essentia in a liqid form rather than in a solid one.  It will likely require a large number of storage containers, as well as more energy to process.  But these methods shows promise.  You seem to be able to combine more complex forms of essentia using the liquid form, and with less waste.  A fair price to pay for progress."
+  },
+  {
+    "copy-from": "theory_abstract",
+    "id": "theory_witchcraft",
+    "name": { "str": "a master thaumologit's observations on witchcraft", "str_pl": "copies of a master thaumologit's observations on witchcraft" },
+    "//":  "Any ammount of rambling can be considered to be in character",
+    "description": "You have studdied all available avenues of thaumaturgical knowledge and understanding.  Yet there is more power to gain.  More knowledge waitning to be learend.  You've come across the occational reference to witchcraft.  Strange overworldy beings offering powers and knowledge to mortals in fel bargains.  But they will not assosiate with you.  They are fools, clining to a worldview of harmony, while you bask in true understanding of the universe through the power of domination.  Two oposing worldviews.  And though domination is clearly the superior one, it has allways irked you that going down one path would lock you out of the other.  It's like an itch that keeps growing.  But you will be denied no more.  You have cracked the code.  By going down one path, a part of your soul is forever changed.  So the solution is obvious.  You're not sure why you didn't see it before.  Perhaps you did and just pretended otherwise.  You will have to cut out that part of your own soul.  On paper, the procedure should be relatively simple.  But it's a big sacrifice to make.  Perhaps it would be better to stop, to leave it be.  Any powers gained ought to be pitiful compared to what you have ammassed.  But you just have to know what's out there.  You have to.  There is no turning back.  There haven't been any turning back for a while now.  There is no price too high for progress."
+  }
+]
