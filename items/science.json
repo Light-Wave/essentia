@@ -1,10 +1,14 @@
 [
   {
+    "type": "TOOL",
     "copy-from": "chemistry_set",
+    "name": { "str": "chemistry set" },
     "extend":  { "qualities": [ [ "SUBLIMATION", 1 ] ] }
   },
   {
+    "type": "TOOL",
     "copy-from": "chemistry_set_basic",
+    "name": { "str": "basic chemistry set" },
     "extend":  { "qualities": [ [ "SUBLIMATION", 1 ] ] }
   },
   {

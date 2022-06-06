@@ -14,14 +14,16 @@
     "to_hit": -5
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_slag",
-    "color": "purple",
+    "color": "magenta",
     "name": { "str": "thaumic slag" },
     "description": "A purple metallic twisted lump of thaumic slag.",
     "weight": "1 mg"
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_aer",
     "color": "yellow",
@@ -30,6 +32,7 @@
     "weight": "1 mg"
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_alienis",
     "color": "magenta",
@@ -37,6 +40,7 @@
     "description": "A purple chunk of crystalized alienis, the aspect of eldritch and ailien.  It seems to contain a star field in the back.  The way it paralaxes seems impossible."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_aqua",
     "color": "cyan",
@@ -44,6 +48,7 @@
     "description": "A soft blue chunk of aqua, the aspect of water.  Handling it seems to leave your hands slightly damp."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_arbor",
     "color": "brown",
@@ -51,6 +56,7 @@
     "description": "A rough brown chunk of crystalized arbor, the aspect of trees.  Or perhaps it's just a mundane chunk of bark?  When you hold it to your ear, you can hear the soft creaking of wood."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_auram",
     "color": "light_red",
@@ -58,6 +64,7 @@
     "description": "A smooth pink gem of crystalized auram, the aspect of the aura.  It seems to have more inertia than its weight would suggest."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_bestia",
     "color": "brown",
@@ -65,6 +72,7 @@
     "description": "A small fury warm thing that seems to have a faint heartbeat.  Presumably this is crystalized bestia, the aspect of animals."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_cognito",
     "color": "light_red",
@@ -72,6 +80,7 @@
     "description": "What seems like sharp glass shard with paper pages enbedded within is acutaly crystalized cognito, the aspect of mind, knowledge, and information.  You know this for certain.  The text within shifts as you change perspective."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_corpus",
     "color": "red",
@@ -79,6 +88,7 @@
     "description": "This looks like a tiny scrap of edible meat, fresh enough to twitch.  It is actually crystalized corpus, the aspect of flesh, blood, skin, and bone.  Anything that comes into contact with it is stained by blood."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_exanimis",
     "color": "brown",
@@ -86,6 +96,7 @@
     "description": "A smal lump of perpetually rottening flesh leaking a black, stycky fluid.  It is crystalized exanimis, the aspect of undeath.  Holding this fills you with a feeling of primordial dread.  How curious."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_fabrico",
     "color": "blue",
@@ -93,6 +104,7 @@
     "description": "This tiny lump of soft damp clay slowly flows into the shape of various ceramics and then back again.  It is crystalized fabrico, the aspect of crafting and repairing."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_fames",
     "color": "magenta",
@@ -100,6 +112,7 @@
     "description": "This looks and feels like a lump of pemmican, but is actually crystalized fames, the aspect of food and hunger.  It smells mouth-wateringly delicious."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_gelum",
     "color": "light_cyan",
@@ -107,6 +120,7 @@
     "description": "A frigid blue ice-like crystal of gelum, the aspect of cold and ice.  Holding it saps the heat from your hands."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_herba",
     "color": "green",
@@ -114,6 +128,7 @@
     "description": "A green leaf-shaped crystal of herba, the aspect of plants.  It smells like leaves."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_humanus",
     "color": "light_red",
@@ -121,6 +136,7 @@
     "description": "This looks like a tiny porcelain person rolled up in fetal position.  It is crystalized humanus, the aspect of humanity."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_ignis",
     "color": "red",
@@ -129,6 +145,7 @@
     "weight": "1 mg"
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_instrumentum",
     "color": "blue",
@@ -136,6 +153,7 @@
     "description": "This looks like a handle to some sort of tool.  It smells of sawdust and welding gass.  It is crystalized instrumentum, the aspect of tools."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_iter",
     "color": "green",
@@ -143,6 +161,7 @@
     "description": "A round disc that displays faraway places when gazed into.  The location shifts depending on the angle you're holding it in.  It is crystalized iter, the aspect of travel."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_limus",
     "color": "green",
@@ -150,6 +169,7 @@
     "description": "This is a sticky green ball of semi-crystalized limus, the aspect of slime."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_lucrum",
     "color": "yellow",
@@ -157,6 +177,7 @@
     "description": "This nugget of essentia looks like gold coins and precious gems fused together.  It is crystalized lucrum, the aspect of greed and wealth.  Holding it makes you want more.  Much more."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_lux",
     "color": "white",
@@ -164,6 +185,7 @@
     "description": "This blindingly white crystal seems to be backlit, yet it does not illuminate the surrounding area.  It is crystalized lux, the aspect of light."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_machina",
     "color": "light_gray",
@@ -171,6 +193,7 @@
     "description": "This lump of complex clockwork is crystalized machina, the aspect of machines and devices.  A faint ticking can be heard as the cogwheels keep turning."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_messis",
     "color": "brown",
@@ -178,6 +201,7 @@
     "description": "This lump of grains is crystalized messis, the aspect of crops and cultivated plants.  It smells like upturned earth."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_metallum",
     "color": "light_gray",
@@ -186,6 +210,7 @@
     "weight": "400 mg"
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_meto",
     "color": "light_gray",
@@ -193,6 +218,7 @@
     "description": "A tiny sickle, smelling of hay. It is crystalized meto, the aspect of harvest."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_mortuus",
     "color": "white",
@@ -200,6 +226,7 @@
     "description": "Bones and skulls seems to have fused together to form this lump of crystalized mortuus, the aspect of death."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_motus",
     "color": "green",
@@ -207,6 +234,7 @@
     "description": "This green rubbery ball rolls around on its own when let go.  It is crystalized motus, the aspect of motion."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_ordo",
     "color": "white",
@@ -214,6 +242,7 @@
     "description": "This perfectly symetrical transparent crystal is made of ordo, the aspect of order.  When in direct sunlight, it projects tiny rainbows on nearby surfaces."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_pannus",
     "color": "light_green",
@@ -221,6 +250,7 @@
     "description": "This tiny scrap of cloth is actually pannus, the aspect of cloth and clothing.  It is increadibly soft and confy to the touch."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_perditio",
     "color": "black",
@@ -228,6 +258,7 @@
     "description": "This black cracked asymetrical crystal seems to have a lightning storm inside. It is crystalized perditio, the aspect of chaos."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_perfodio",
     "color": "light_gray",
@@ -235,6 +266,7 @@
     "description": "This chink of rock has signs of being recently dug out. It is crystalized perfodio, the aspect of mining."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_permutatio",
     "color": "green",
@@ -242,6 +274,7 @@
     "description": "This small sliver of matter rapidly changes between different materials.  It is crystalized permutatio, the aspect of change, transformation, trade, and exchange."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_potentia",
     "color": "yellow",
@@ -249,6 +282,7 @@
     "description": "This lump of amber seems to give you a tiny static shock each time you touch it.  It is crystalized potentia, the aspect of energy."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_praecantatio",
     "color": "magenta",
@@ -256,6 +290,7 @@
     "description": "This purple crystal has sharp edges and faintly pulses with arcane energy.  It is crystalized praecantatio, the aspect of magic itself."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_sano",
     "color": "pink",
@@ -263,6 +298,7 @@
     "description": "This pinkish red opaque ovoid is smooth to the touch.  It is crystalized sano, the aspect of healing.  Holding it seems to have a slight calming effect."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_sensus",
     "color": "cyan",
@@ -270,6 +306,7 @@
     "description": "This small sphere seems to shift colour, texture and even smell over time.  It is crystalized sensus, the aspect of senses."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_spiritus",
     "color": "light_gray",
@@ -277,6 +314,7 @@
     "description": "Faces swirl inside this dark purple crystal.  Clinking, glowing, pleading.  It is crystalized spiritus, the aspect of souls."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_telum",
     "color": "red",
@@ -285,6 +323,7 @@
     "to_hit": 1
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_tempestas",
     "color": "light_gray",
@@ -292,6 +331,7 @@
     "description": "This looks like a rainstorm caught inside a smooth opal.  The coulds are slowly churning.  It is crystalized tempestas, the aspect of weather."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_tenebrae",
     "color": "black",
@@ -299,6 +339,7 @@
     "description": "This rough hard crystal is completely black, hiding any shape except the outer contour.  Your eyes can't discern its shape or dimensions, confusing your brain like an optical illusion.  It is crystalized tenebrae, the aspect of darkness and the absense of light."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_terra",
     "color": "brown",
@@ -306,6 +347,7 @@
     "description": "This looks and smells like a lump of damp earth.  It is crystalized terra, the aspect of earth."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_tutamen",
     "color": "blue",
@@ -313,6 +355,7 @@
     "description": "This tinly lump of scraps seems to come from tiny plate armors.  It is crystalized tutamen, the aspect of armor and protection."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vacuos",
     "color": "dark_gray",
@@ -320,6 +363,7 @@
     "description": "A tiny bubble of less than nothing trapped in clear crystal. It is crystalized vacuos, the aspect of void, emptiness, and nothing."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_venenum",
     "color": "light_green",
@@ -327,6 +371,7 @@
     "description": "A a sickly green chunk of crystalized venenum, the aspect of poisons, venoms, and toxins.  It causes mild rashes on contact with skin."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_victus",
     "color": "red",
@@ -334,6 +379,7 @@
     "description": "This vibrant red crystal of victus essentia seems to beat to a faint heartbeat. It is the aspect of life."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vinculum",
     "color": "brown",
@@ -341,6 +387,7 @@
     "description": "This small brown crystal is extremely sticky, adhering itself to anything it touches.  It is crystalized vinculum, the aspect of trapping."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vitium",
     "color": "black",
@@ -348,6 +395,7 @@
     "description": "This black crystal is disturbingly slick and warm to the touch.  It seems to wiggle occasionally when viewed from the corner of your eye.  It is crystalized vitium, the aspect of taint and magic gone wrong."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_vitreus",
     "color": "white",
@@ -355,6 +403,7 @@
     "description": "This looks like a rough glass shard, but is actually crystalized vitreus, the aspect of crystals.  Its shape slowly morphs while remaining sharp."
   },
   {
+    "type": "GENERIC",
     "copy-from": "essentia_crystal_abstract",
     "id": "crystal_volatus",
     "color": "yellow",

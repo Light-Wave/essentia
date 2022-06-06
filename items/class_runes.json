@@ -9,7 +9,8 @@
     "volume": "5ml",
     "weight": "1 g",
     "material": [ "stone" ],
-    "flags": [ "TRADER_AVOID" ]
+    "flags": [ "TRADER_AVOID" ],
+    "qualities": [ [ "THAUMOTURGIC_MANIPULATION", 1 ] ]
   },
   {
     "id": "rune_witchcraft",

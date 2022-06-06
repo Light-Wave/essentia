@@ -1,0 +1,12 @@
+[
+  {
+    "type": "tool_quality",
+    "id": "SUBLIMATION",
+    "name": { "str": "sublimation" }
+  },
+  {
+    "type": "tool_quality",
+    "id": "THAUMOTURGIC_MANIPULATION",
+    "name": { "str": "thaumaturgic manipulation" }
+  }
+]

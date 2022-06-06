@@ -2,14 +2,16 @@
   {
     "type": "BOOK",
     "copy-from": "spell_scroll",
-    "id": "theory_abstract",
+    "abstract": "theory_abstract",
+    "name": "abstract theory",
     "intelligence": 5,
     "skill": "spellcraft",
     "max_level": 1
   },
   {
-    "type": "BOOK",
     "copy-from": "spell_scroll",
-    "id": "hypothesis_abstract"
+    "abstract": "hypothesis_abstract",
+    "name": "abstract hypothesis",
+    "type": "BOOK"
   }
 ]

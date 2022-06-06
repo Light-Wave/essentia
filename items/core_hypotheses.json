@@ -1,5 +1,6 @@
 [
   {
+    "type": "BOOK",
     "copy-from": "hypothesis_abstract",
     "id": "hypothesis_thaumatology_t0",
     "name": { "str": "fundamental thaumaturgic theory", "str_pl": "fundamental thaumaturgic theories" },
@@ -7,10 +8,11 @@
     "use_action": {
       "type": "transform",
       "target": "theory_thaumatology_t0",
-      "tools_needed" : { "rune_thaumatology" : -1 }
+      "qualities_needed" : { "THAUMOTURGIC_MANIPULATION": 1 }
     }
   },
   {
+    "type": "BOOK",
     "copy-from": "hypothesis_abstract",
     "id": "hypothesis_thaumatology_t1",
     "name": { "str": "compound thaumaturgic theory", "str_pl": "compound thaumaturgic theories" },
@@ -21,6 +23,7 @@
     }
   },
   {
+    "type": "BOOK",
     "copy-from": "hypothesis_abstract",
     "id": "hypothesis_thaumatology_t2",
     "name": { "str": "advanced essentia theory", "str_pl": "advanced essentia theories" },
@@ -31,6 +34,7 @@
     }
   },
   {
+    "type": "BOOK",
     "copy-from": "hypothesis_abstract",
     "id": "hypothesis_witchcraft",
     "name": { "str": "a master thaumologit's observations on witchcraft", "str_pl": "copies of a master thaumologit's observations on witchcraft" },
