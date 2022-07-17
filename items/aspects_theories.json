@@ -5,7 +5,7 @@
     "id": "theory_aer",
     "color": "yellow",
     "name": { "str": "aer theory", "str_pl": "aer theories" },
-    "description": "A studdy on aer, the aspect of air and wind.  As a fundamental aspect, it can not be created from combining other aspects.  It is commonly found in objects with ties to air, or that has been exposed to wind.  Crystalized aer can be extracted by connecting two containers with a hose or pipe.  One of the containers are filled with aer rich materials and then heated.  The aer will sublimate, travel to the other cooler container, and then desublimate, resulting in yellow crystal.  Chewing on them seems to fill your lungs with air, which seems potentially useful when dealing with smoke or underwater enviroments.  It seems to be potentially possible to infuse items with these crystals to make them lighter."
+    "description": "A studdy on aer, the aspect of air and wind.  As a fundamental aspect, it can not be created from combining other aspects.  It is commonly found in objects with ties to air, or that has been exposed to wind.  Crystalized aer can be extracted by connecting two containers with a hose or pipe.  One of the containers are filled with aer rich materials and then heated.  The aer will sublimate, travel to the other cooler container, and then desublimate, resulting in yellow crystal.  Chewing on them seems to fill your lungs with air, which seems potentially useful when dealing with smoke or underwater enviroments.  It seems to be potentially possible to infuse items with this aspect to make them lighter."
   },
   {
     "type": "BOOK",
@@ -21,7 +21,7 @@
     "id": "theory_aqua",
     "color": "cyan",
     "name": { "str": "aqua theory", "str_pl": "aqua theories" },
-    "description": "A studdy on aqua, the aspect of water.  As a fundamental aspect, it can not be created from combining other aspects.  It is most commonly found in water, naturally.  Crystals can be extracted by letting a container of clean water slowly evaporate until only blue crystals remains at the bottom.  Chewing on them slakes your thirst, making them a potentailly convinient way of carrying drinking water.  Infusing objects with the crystals seems to make them more liquid, which might prove useful."
+    "description": "A studdy on aqua, the aspect of water.  As a fundamental aspect, it can not be created from combining other aspects.  It is most commonly found in water, naturally.  Crystals can be extracted by letting a container of clean water slowly evaporate until only blue crystals remains at the bottom.  Chewing on them slakes your thirst, making them a potentailly convinient way of carrying drinking water.  Infusing objects with the aspect seems to make them more fluid."
   },
   {
     "type": "BOOK",
@@ -117,7 +117,7 @@
     "id": "theory_ignis",
     "color": "red",
     "name": { "str": "ignis theory", "str_pl": "ignis theories" },
-    "description": "A studdy on ignis, the aspect of fire.  As a fundamental aspect, it can not be created from combining other aspects.  It is most commonly found in water, naturally.  Crystals can be extracted by letting a container of clean water slowly evaporate until only blue crystals remains at the bottom.  Chewing on them slakes your thirst, making them a potentailly convinient way of carrying drinking water.  Infusing objects with the crystals seems to make them more liquid, which might prove useful."
+    "description": "A studdy on ignis, the aspect of fire.  As a fundamental aspect, it can not be created from combining other aspects.  It can be found in fires and hot objects.  Crystals can be extracted by letting a flame slowly die out until only tiny crystal fragments remains.  Alternatively, they can be carefuly scraped off of hot surfaces after they cooled down.  Striking them against hard surfaces create a tiny flame, which could be used to start a fire.  Infusing objects with the aspect seems to make them warmer."
   },
   {
     "type": "BOOK",
@@ -213,7 +213,7 @@
     "id": "theory_ordo",
     "color": "white",
     "name": { "str": "ordo theory", "str_pl": "ordo theories" },
-    "description": "A studdy on ordo, the aspect of order."
+    "description": "A studdy on ordo, the aspect of order.  As a fundamental aspect, it can not be created from combining other aspects.  It can most readily be found in salt, vinegar, and other substances used to slow rot, decay, and entropy.  It appears to be possible to draw out essentia crystals by carefuly organizing salt crystals in intricate patterns.  This seems to somehow ruin the salt.  Eating the crystals seems to help you focus.  Infusing objects with the aspect seems to make them more resistant to entropy, wear, and tear."
   },
   {
     "type": "BOOK",
@@ -229,7 +229,7 @@
     "id": "theory_perditio",
     "color": "black",
     "name": { "str": "perditio theory", "str_pl": "perditio theories" },
-    "description": "A studdy on perditio, the aspect of chaos."
+    "description": "A studdy on perditio, the aspect of chaos and entropy.  As a fundamental aspect, it can not be created from combining other aspects.  Crystals can form when substances of high entropy, such as burnt wood or sand, are futher crushed up and dissolved.  Eating the crystals seems like a bad idea.  Infusing objects with the aspect seems to make them less resistant to entropy, wear, and tear."
   },
   {
     "type": "BOOK",
@@ -317,7 +317,7 @@
     "id": "theory_terra",
     "color": "brown",
     "name": { "str": "terra theory", "str_pl": "terra theories" },
-    "description": "A studdy on terra, the aspect of earth."
+    "description": "A studdy on terra, the aspect of earth.  As a fundamental aspect, it can not be created from combining other aspects.  Crystals can be found by shifting through soil or cracking open rocks.  Eating the crystals seems like a bad idea.  Infusing objects with the aspect seems to make them heavier, which might be useful for blunt weapons."
   },
   {
     "type": "BOOK",

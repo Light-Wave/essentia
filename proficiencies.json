@@ -1,0 +1,29 @@
+[
+  {
+    "type": "proficiency_category",
+    "id": "prof_alchemy",
+    "name": "Alchemy",
+    "description": "Proficiencies for working with the elements and transforming substances.",
+    "//":  "Copied from Magiclysm"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_control",
+    "category": "prof_alchemy",
+    "name": { "str": "Control Attunement" },
+    "description": "You are attuned to the side of magic focusing on control.  You use your will to make the Universe bow to your wishes.  Ultimately this manifests itself as a focus on Mankind.",
+    "can_learn": false,
+    "default_time_multiplier": 2,
+    "default_fail_multiplier": 1
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_harmony",
+    "category": "prof_alchemy",
+    "name": { "str": "Harmony Attunement" },
+    "description": "You are attuned to the side of magic focusing on harmony.  Harmony is the Universe expressing itself through you.  You are only acting as a conduit, but you can direct the power using your will.",
+    "can_learn": false,
+    "default_time_multiplier": 2,
+    "default_fail_multiplier": 1
+  }
+]

@@ -8,8 +8,9 @@
     "time": "5 h",
     "skill_used": "chemistry",
     "difficulty": 1,
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER",
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_THAUMATOLOGY",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
     "autolearn": true
   },
   {
@@ -30,7 +31,16 @@
       [ [ "theory_terra", -1 ] ],
       [ [ "rune_thaumatology", -1 ] ]
     ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_THAUMATOLOGY",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "components": [
+      [ [ "crystal_aer", 1 ] ],
+      [ [ "crystal_aqua", 1 ] ],
+      [ [ "crystal_ignis", 1 ] ],
+      [ [ "crystal_ordo", 1 ] ],
+      [ [ "crystal_perditio", 1 ] ],
+      [ [ "crystal_terra", 1 ] ]
+    ]
   }
 ]

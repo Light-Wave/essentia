@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "research",
-    "name": "Research",
+    "id": "essentia",
+    "name": "Essentia",
     "authors": [ "Lightwave" ],
     "maintainers": [ "Lightwave" ],
-    "description": "Research",
+    "description": "Master the manipulation of magical energies.",
     "category": "total_conversion",
     "dependencies": [ "dda", "magiclysm" ],
     "obsolete": false
