@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_stormshaper_tier_0",
+    "name": { "str": "Basic Stormshaper Theory", "str_pl": "Basic Stormshaper Theories" },
+    "description": "A most basic understanding of stormshaper magic.  Stormshapers follow ancient arcane disciplines of meditation and harmony with the winds and tides that shape the planet.  Through their deep connection to these forces, they can request powerful changes.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_stormshaper_tier_1",
+    "name": { "str": "Intermediate Stormshaper Theory", "str_pl": "Intermediate Stormshaper Theories" },
+    "description": "An intermediate understanding of stormshaper magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_stormshaper_tier_2",
+    "name": { "str": "Advanced Stormshaper Theory", "str_pl": "Advanced Stormshaper Theories" },
+    "description": "An advanced understanding of stormshaper magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_stormshaper_tier_3",
+    "name": { "str": "Expert Stormshaper Theory", "str_pl": "Expert Stormshaper Theories" },
+    "description": "An expert level understanding of stormshaper magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

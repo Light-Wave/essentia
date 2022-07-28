@@ -2,63 +2,14 @@
   {
     "type": "recipe",
     "activity_level": "fake",
-    "result": "research_animist_tier_0",
-    "byproducts": [ [ "spell_scroll_create_rune_animist" ] ],
-    "using": [ [ "req_research_basic", 1 ] ],
-    "time": "5 h",
-    "skill_used": "spellcraft",
-    "difficulty": 0,
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER",
-    "autolearn": true
-  },
-  {
-    "type": "recipe",
-    "activity_level": "fake",
-    "result": "research_animist_tier_1",
-    "using": [ [ "req_research_basic", 1 ], [ "req_research_animist_tier_0", 1 ] ],
-    "time": "10 h",
-    "skill_used": "spellcraft",
-    "difficulty": 3,
-    "book_learn": [ [ "research_animist_tier_0", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
-  },
-  {
-    "type": "recipe",
-    "activity_level": "fake",
-    "result": "research_animist_tier_2",
-    "using": [ [ "req_research_basic", 1 ], [ "req_research_animist_tier_1", 1 ] ],
-    "time": "20 h",
-    "skill_used": "spellcraft",
-    "difficulty": 5,
-    "book_learn": [ [ "research_animist_tier_1", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
-  },
-  {
-    "type": "recipe",
-    "activity_level": "fake",
-    "result": "research_animist_tier_3",
-    "using": [ [ "req_research_basic", 1 ], [ "req_research_animist_tier_2", 1 ] ],
-    "time": "40 h",
-    "skill_used": "spellcraft",
-    "difficulty": 7,
-    "book_learn": [ [ "research_animist_tier_2", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
-  },
-  {
-    "type": "recipe",
-    "activity_level": "fake",
     "result": "spell_scroll_smite",
     "using": [ [ "req_research_basic", 1 ], [ "req_research_animist_tier_0", 1 ], [ "req_research_telum", 1 ] ],
     "time": "3 h",
     "skill_used": "spellcraft",
     "difficulty": 1,
     "book_learn": [ [ "research_animist_tier_0", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -70,8 +21,8 @@
     "skill_used": "spellcraft",
     "difficulty": 1,
     "book_learn": [ [ "research_animist_tier_0", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -82,8 +33,8 @@
     "skill_used": "spellcraft",
     "difficulty": 1,
     "book_learn": [ [ "research_animist_tier_0", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -94,8 +45,8 @@
     "skill_used": "spellcraft",
     "difficulty": 1,
     "book_learn": [ [ "research_animist_tier_0", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -106,8 +57,8 @@
     "skill_used": "spellcraft",
     "difficulty": 1,
     "book_learn": [ [ "research_animist_tier_0", 1 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -119,8 +70,8 @@
     "skill_used": "spellcraft",
     "difficulty": 3,
     "book_learn": [ [ "research_animist_tier_1", 3 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -132,8 +83,8 @@
     "skill_used": "spellcraft",
     "difficulty": 3,
     "book_learn": [ [ "research_animist_tier_1", 3 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -144,8 +95,8 @@
     "skill_used": "spellcraft",
     "difficulty": 5,
     "book_learn": [ [ "research_animist_tier_2", 5 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -156,8 +107,8 @@
     "skill_used": "spellcraft",
     "difficulty": 5,
     "book_learn": [ [ "research_animist_tier_2", 5 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -169,8 +120,8 @@
     "skill_used": "spellcraft",
     "difficulty": 5,
     "book_learn": [ [ "research_animist_tier_2", 5 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -181,8 +132,8 @@
     "skill_used": "spellcraft",
     "difficulty": 7,
     "book_learn": [ [ "research_animist_tier_3", 7 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -193,8 +144,8 @@
     "skill_used": "spellcraft",
     "difficulty": 7,
     "book_learn": [ [ "research_animist_tier_3", 7 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   },
   {
     "type": "recipe",
@@ -206,7 +157,7 @@
     "skill_used": "spellcraft",
     "difficulty": 7,
     "book_learn": [ [ "research_animist_tier_3", 7 ] ],
-    "category": "CC_ENCHANTED",
-    "subcategory": "CSC_ENCHANTED_OTHER"
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT"
   }
 ]

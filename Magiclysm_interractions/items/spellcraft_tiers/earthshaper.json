@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_0",
+    "name": { "str": "Basic Earthshaper Theory", "str_pl": "Basic Earthshaper Theories" },
+    "description": "A most basic understanding of earthshaper magic.  Earthshapers have allowed their minds to sink deep within the stones and metals of the planet, and become one with its secrets.  To a master Earthshaper, spells can be as permanent as the stones they are created from, and time is measured in geological eras.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_1",
+    "name": { "str": "Intermediate Earthshaper Theory", "str_pl": "Intermediate Earthshaper Theories" },
+    "description": "An intermediate understanding of earthshaper magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_2",
+    "name": { "str": "Advanced Earthshaper Theory", "str_pl": "Advanced Earthshaper Theories" },
+    "description": "An advanced understanding of earthshaper magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_earthshaper_tier_3",
+    "name": { "str": "Expert Earthshaper Theory", "str_pl": "Expert Earthshaper Theories" },
+    "description": "An expert level understanding of earthshaper magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

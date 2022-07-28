@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_0",
+    "name": { "str": "Basic Animist Theory", "str_pl": "Basic Animist Theories" },
+    "description": "A most basic understanding of animist magic.  The animist tradition is a relatively new school of magical thought, formed through combination of many older ways that focus on harmony and connection to the natural world.  This does not mean that animists are passive: the natural world is a savage place.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_1",
+    "name": { "str": "Intermediate Animist Theory", "str_pl": "Intermediate Animist Theories" },
+    "description": "An intermediate understanding of animist magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_2",
+    "name": { "str": "Advanced Animist Theory", "str_pl": "Advanced Animist Theories" },
+    "description": "An advanced understanding of animist magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_animist_tier_3",
+    "name": { "str": "Expert Animist Theory", "str_pl": "Expert Animist Theories" },
+    "description": "An expert level understanding of animist magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

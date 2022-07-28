@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_kelvinist_tier_0",
+    "name": { "str": "Basic Kelvinist Theory", "str_pl": "Basic Kelvinist Theories" },
+    "description": "Disciples of the great Archwizard Lord Kelvin.  Kelvinists focus their magic on manipulation and control of the temperature of their environment, leading to spectacularly powerful explosions or bone-chilling cold.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_kelvinist_tier_1",
+    "name": { "str": "Intermediate Kelvinist Theory", "str_pl": "Intermediate Kelvinist Theories" },
+    "description": "An intermediate understanding of kelvinist magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_kelvinist_tier_2",
+    "name": { "str": "Advanced Kelvinist Theory", "str_pl": "Advanced Kelvinist Theories" },
+    "description": "An advanced understanding of kelvinist magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_kelvinist_tier_3",
+    "name": { "str": "Expert Kelvinist Theory", "str_pl": "Expert Kelvinist Theories" },
+    "description": "An expert level understanding of kelvinist magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

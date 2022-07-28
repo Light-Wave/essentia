@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_biomancer_tier_0",
+    "name": { "str": "Basic Biomancer Theory", "str_pl": "Basic Biomancer Theories" },
+    "description": "A most basic understanding of biomancer magic.  The Biomancer focuses on manipulating and even absorbing flesh; their own, and that of other living or dead things.  Most other wizards find their powers gross and disturbing, but no one can question the potency of their abilities, and certainly not their adaptability to any situation.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_biomancer_tier_1",
+    "name": { "str": "Intermediate Biomancer Theory", "str_pl": "Intermediate Biomancer Theories" },
+    "description": "An intermediate understanding of biomancer magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_biomancer_tier_2",
+    "name": { "str": "Advanced Biomancer Theory", "str_pl": "Advanced Biomancer Theories" },
+    "description": "An advanced understanding of biomancer magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_biomancer_tier_3",
+    "name": { "str": "Expert Biomancer Theory", "str_pl": "Expert Biomancer Theories" },
+    "description": "An expert level understanding of biomancer magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

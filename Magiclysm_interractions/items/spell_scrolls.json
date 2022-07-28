@@ -1,0 +1,56 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_create_rune_technomancer",
+    "//": "Technomancer spell",
+    "name": { "str": "Scroll of Technomancer Rune", "str_pl": "Scrolls of Technomancer Rune" },
+    "description": "This ritual creates a small pebble attuned to Technomancers.  You can use the rune as a catalyst for recipes.",
+    "use_action": { "type": "learn_spell", "spells": [ "create_rune_technomancer" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_create_rune_earthshaper",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Earthshaper Rune", "str_pl": "Scrolls of Earthshaper Rune" },
+    "description": "This ritual creates a small pebble attuned to Earthshapers.  You can use the rune as a catalyst for recipes.",
+    "use_action": { "type": "learn_spell", "spells": [ "create_rune_earthshaper" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_move_earth",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Move Earth", "str_pl": "Scrolls of Move Earth" },
+    "description": "Your essence flows around you, and the earth follows.",
+    "use_action": { "type": "learn_spell", "spells": [ "move_earth" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_soulrend",
+    "//": "Animist spell",
+    "name": { "str": "Scroll of Soulrend", "str_pl": "Scrolls of Soulrend" },
+    "description": "Violently tears the spirit from the body, and bounds the resulting shade to your will.",
+    "use_action": { "type": "learn_spell", "spells": [ "soulrend" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_create_rune_animist",
+    "//": "Earthshaper spell",
+    "name": { "str": "Scroll of Animist Rune", "str_pl": "Scrolls of Animist Rune" },
+    "description": "This ritual creates a small pebble attuned to Animist.  You can use the rune as a catalyst for recipes.",
+    "use_action": { "type": "learn_spell", "spells": [ "create_rune_animist" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_translocate_self",
+    "//": "Untyped spell",
+    "name": { "str": "Scroll of Translocate Self", "str_pl": "Scrolls of Translocate Self" },
+    "description": "Translocates the user to an attuned gate.",
+    "use_action": { "type": "learn_spell", "spells": [ "translocate_self" ] }
+  }
+]

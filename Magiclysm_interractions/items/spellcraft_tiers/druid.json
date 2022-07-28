@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_druid_tier_0",
+    "name": { "str": "Basic Druid Theory", "str_pl": "Basic Druid Theories" },
+    "description": "A most basic understanding of druid magic.  Druids follow a wild tradition of allegiance and rebirth within the world of nature, especially the cycle of death and rebirth that is the plant world.  A powerful Druid is as much a part of that world as the human one.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_druid_tier_1",
+    "name": { "str": "Intermediate Druid Theory", "str_pl": "Intermediate Druid Theories" },
+    "description": "An intermediate understanding of druid magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_druid_tier_2",
+    "name": { "str": "Advanced Druid Theory", "str_pl": "Advanced Druid Theories" },
+    "description": "An advanced understanding of druid magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_druid_tier_3",
+    "name": { "str": "Expert Druid Theory", "str_pl": "Expert Druid Theories" },
+    "description": "An expert level understanding of druid magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "hypothesis_abstract",
+    "id": "research_spellcraft_tier_0_hypothesis",
+    "name": { "str": "Basic Spellcraft Theory (sealed)", "str_pl": "Basic Spellcraft Theory (sealed)" },
+    "description": "A most basic understanding of Magiclysm-style spellcasting.",
+    "use_action": {
+      "type": "transform",
+      "target": "research_spellcraft_tier_0_balanced"
+    }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_spellcraft_tier_0",
+    "name": { "str": "Basic Spellcraft Theory", "str_pl": "Basic Spellcraft Theories" },
+    "description": "A most basic understanding of Magiclysm-style spellcasting.  As a budding thaumaturgists, you seem to have trouble connecting to balance aligned schools of magic.  No matter.  The domination schools will serve just fine.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_spellcraft_tier_0_balanced",
+    "name": { "str": "Basic Spellcraft Theory", "str_pl": "Basic Spellcraft Theories" },
+    "description": "A most basic understanding of Magiclysm-style spellcasting.  Domination schools should be easier to master, but balance schools are not beyond your grasp either.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_spellcraft_tier_1",
+    "name": { "str": "Intermediate Spellcraft Theory", "str_pl": "Intermediate Spellcraft Theories" },
+    "description": "An intermediate understanding of Magiclysm-style spellcasting.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_spellcraft_tier_2",
+    "name": { "str": "Advanced Spellcraft Theory", "str_pl": "Advanced Spellcraft Theories" },
+    "description": "An advanced understanding of Magiclysm-style spellcasting.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_spellcraft_tier_3",
+    "name": { "str": "Expert Spellcraft Theory", "str_pl": "Expert Spellcraft Theories" },
+    "description": "An expert level understanding of Magiclysm-style spellcasting.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

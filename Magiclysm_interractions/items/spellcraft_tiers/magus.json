@@ -1,0 +1,42 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_magus_tier_0",
+    "name": { "str": "Basic Magus Theory", "str_pl": "Basic Magus Theories" },
+    "description": "A most basic understanding of magus magic.  A tradition as old as magic, the Magus focuses on binding and shaping the energy of the universe to their will.",
+    "intelligence": 5,
+    "skill": "spellcraft",
+    "max_level": 1
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_magus_tier_1",
+    "name": { "str": "Intermediate Magus Theory", "str_pl": "Intermediate Magus Theories" },
+    "description": "An intermediate understanding of magus magic.",
+    "intelligence": 7,
+    "skill": "spellcraft",
+    "max_level": 3
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_magus_tier_2",
+    "name": { "str": "Advanced Magus Theory", "str_pl": "Advanced Magus Theories" },
+    "description": "An advanced understanding of magus magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 5
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "research_magus_tier_3",
+    "name": { "str": "Expert Magus Theory", "str_pl": "Expert Magus Theories" },
+    "description": "An expert level understanding of magus magic.",
+    "intelligence": 9,
+    "skill": "spellcraft",
+    "max_level": 7
+  }
+]

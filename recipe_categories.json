@@ -1,0 +1,21 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_RESEARCH",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_RESEARCH_MATERIALS",
+      "CSC_RESEARCH_TOOLS",
+      "CSC_RESEARCH_THAUMATOLOGY",
+      "CSC_RESEARCH_SPELLCRAFT",
+      "CSC_RESEARCH_OTHER"
+    ]
+  },
+  {
+    "type": "recipe_category",
+    "id": "CC_CHEM",
+    "recipe_subcategories": [
+      "CSC_CHEM_ESSENTIA"
+    ]
+  }
+]

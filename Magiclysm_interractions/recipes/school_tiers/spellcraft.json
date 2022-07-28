@@ -1,0 +1,54 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "research_spellcraft_tier_0_hypothesis",
+    "byproducts": [ [ "spell_scroll_crystallize_mana" ] ],
+    "using": [ [ "req_research_basic", 1 ] ],
+    "time": "5 h",
+    "skill_used": "spellcraft",
+    "difficulty": 0,
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT",
+    "book_learn": [ [ "theory_thaumatology_t0", 1 ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "research_spellcraft_tier_1",
+    "using": [ [ "req_research_basic", 1 ] ],
+    "time": "10 h",
+    "skill_used": "spellcraft",
+    "difficulty": 3,
+    "book_learn": [ [ "research_spellcraft_tier_0", 1 ] ],
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT",
+    "components": [ [ [ "crystallized_mana", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "research_spellcraft_tier_2",
+    "using": [ [ "req_research_basic", 1 ] ],
+    "time": "20 h",
+    "skill_used": "spellcraft",
+    "difficulty": 5,
+    "book_learn": [ [ "research_spellcraft_tier_1", 1 ] ],
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT",
+    "components": [ [ [ "crystallized_mana", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "research_spellcraft_tier_3",
+    "using": [ [ "req_research_basic", 1 ] ],
+    "time": "40 h",
+    "skill_used": "spellcraft",
+    "difficulty": 7,
+    "book_learn": [ [ "research_spellcraft_tier_2", 1 ] ],
+    "category": "CC_RESEARCH",
+    "subcategory": "CSC_RESEARCH_SPELLCRAFT",
+    "components": [ [ [ "crystallized_mana", 4 ] ] ]
+  }
+]
