@@ -1,0 +1,47 @@
+[
+  {
+    "type": "TOOL",
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_thaumatology_t0",
+    "name": { "str": "fundamental thaumaturgic theory (sealed)", "str_pl": "fundamental thaumaturgic theories (sealed)" },
+    "description": "It came to you in a dream.  A way to crystalize certain elemental aspects of an object.  All you need is a runestone, and the will to investigate.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_thaumatology_t0",
+      "qualities_needed" : { "THAUMOTURGIC_MANIPULATION": 1 }
+    }
+  },
+  {
+    "type": "TOOL",
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_thaumatology_t1",
+    "name": { "str": "compound thaumaturgic theory (sealed)", "str_pl": "compound thaumaturgic theories (sealed)" },
+    "description": "With the fundamental elements covered, it's time to see what more can be done with these crystals.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_thaumatology_t1"
+    }
+  },
+  {
+    "type": "TOOL",
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_thaumatology_t2",
+    "name": { "str": "advanced essentia theory (sealed)", "str_pl": "advanced essentia theories (sealed)" },
+    "description": "Trying to create more complex aspects seems to create unstable crystals that imedietly decay into their compound aspects.  Yet you are confident there are more aspects out there to explore.  You will have to change your approach.",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_thaumatology_t2"
+    }
+  },
+  {
+    "type": "TOOL",
+    "copy-from": "hypothesis_abstract",
+    "id": "hypothesis_witchcraft",
+    "name": { "str": "a master thaumologit's observations on witchcraft (sealed)", "str_pl": "copies of a master thaumologit's observations on witchcraft (sealed)" },
+    "description": "Domination and harmony seems to be in constant conflict.  Both in the world, and within yourself.  There ought to be a way to draw power from both sides.  [[DO NOT DO THIS!!!]]",
+    "use_action": {
+      "type": "transform",
+      "target": "theory_witchcraft"
+    }
+  }
+]

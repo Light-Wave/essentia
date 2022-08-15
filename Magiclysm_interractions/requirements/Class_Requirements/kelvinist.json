@@ -1,0 +1,64 @@
+[
+  {
+    "id": "req_research_kelvinist_tier_0",
+    "type": "requirement",
+    "//": "Hot or cold",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "rune_kelvinist", 1 ] ],
+      [
+        [ "ash", 10 ],
+        [ "corpse_ash", 10 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_kelvinist_tier_1",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "rune_kelvinist", 1 ] ],
+      [
+        [ "ash", 10 ],
+        [ "corpse_ash", 10 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_kelvinist_tier_2",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "rune_kelvinist", 1 ] ],
+      [
+        [ "ash", 10 ],
+        [ "corpse_ash", 10 ]
+      ],
+      [
+        [ "candle", 1 ],
+        [ "candle_lit", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_kelvinist_tier_3",
+    "type": "requirement",
+    "//": "Consider adding Constantan crafting and usage. Also consider adding arc welder around here.",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "surface_heat", 15, "LIST" ] ] ],
+    "components": [
+      [ [ "rune_kelvinist", 1 ] ],
+      [
+        [ "ash", 10 ],
+        [ "corpse_ash", 10 ]
+      ],
+      [
+        [ "candle", 1 ],
+        [ "candle_lit", 1 ]
+      ]
+    ]
+  }
+]

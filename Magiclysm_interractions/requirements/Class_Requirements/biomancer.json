@@ -1,0 +1,66 @@
+[
+  {
+    "id": "req_research_biomancer_tier_0",
+    "type": "requirement",
+    "//": "Flesh",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "rune_biomancer", 1 ] ],
+      [
+        [ "meat", 1 ],
+        [ "meat_scrap", 10 ],
+        [ "mutant_meat", 1 ],
+        [ "mutant_meat_scrap", 10 ],
+        [ "blood", 2 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_biomancer_tier_1",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "rune_biomancer", 1 ] ],
+      [
+        [ "meat", 1 ],
+        [ "meat_scrap", 10 ],
+        [ "mutant_meat", 1 ],
+        [ "mutant_meat_scrap", 10 ],
+        [ "blood", 2 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_biomancer_tier_2",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "qualities": [ { "id": "CUT", "level": 2 } ],
+    "components": [
+      [ [ "rune_biomancer", 1 ] ],
+      [
+        [ "meat", 1 ],
+        [ "meat_scrap", 10 ],
+        [ "blood", 2 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_biomancer_tier_3",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "qualities": [ { "id": "CUT", "level": 2 }, { "id": "CUT_FINE", "level": 2 } ],
+    "components": [
+      [ [ "rune_biomancer", 1 ] ],
+      [
+        [ "meat", 1 ],
+        [ "meat_scrap", 10 ],
+        [ "blood", 2 ]
+      ],
+      [
+        [ "meat_offal", 2, "LIST" ]
+      ]
+    ]
+  }
+]

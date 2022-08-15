@@ -1,0 +1,67 @@
+[
+  {
+    "id": "req_research_magus_tier_0",
+    "type": "requirement",
+    "//": "Laws of physics, light, force, gravity, time, portals",
+    "//2": "Consider adding newton's cradle and written observations of a physics experiment, and include these as requirements",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "components": [
+      [ [ "rune_magus", 1 ] ],
+      [
+        [ "platonic_flower", 1 ],
+        [ "glowing_mushroom", 1 ],
+        [ "sojourners_flower", 1 ],
+        [ "lens", 1 ],
+        [ "lens_small", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_magus_tier_1",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "rune_magus", 1 ] ],
+      [
+        [ "platonic_flower", 1 ],
+        [ "glowing_mushroom", 1 ],
+        [ "sojourners_flower", 1 ],
+        [ "lens", 1 ],
+        [ "lens_small", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_magus_tier_2",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "rune_magus", 1 ] ],
+      [
+        [ "platonic_flower", 1 ],
+        [ "glowing_mushroom", 1 ],
+        [ "sojourners_flower", 1 ],
+        [ "lens", 1 ],
+        [ "lens_small", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_magus_tier_3",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_control" } ],
+    "tools": [ [ [ "analytical_set_basic", -1 ], [ "ph_meter", -1 ], [ "spectrophotometer", -1 ], [ "balance_small", -1 ], [ "melting_point", -1 ], [ "thermometer", -1 ], [ "thermostat", -1 ] ] ],
+    "components": [
+      [ [ "rune_magus", 1 ] ],
+      [
+        [ "platonic_flower", 1 ],
+        [ "glowing_mushroom", 1 ],
+        [ "sojourners_flower", 1 ],
+        [ "lens", 1 ],
+        [ "lens_small", 1 ]
+      ]
+    ]
+  }
+]

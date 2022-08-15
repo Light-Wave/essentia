@@ -1,0 +1,61 @@
+[
+  {
+    "id": "req_research_animist_tier_0",
+    "type": "requirement",
+    "//": "Spiritually infused objects",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_animist", 1 ] ],
+      [
+        [ "bone", 1 ],
+        [ "bone_human", 1 ],
+        [ "bone_tainted", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_1",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_animist", 1 ] ],
+      [
+        [ "bone", 1 ],
+        [ "bone_human", 1 ],
+        [ "bone_tainted", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_2",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "tools": [ [ [ "bone_flute", -1 ] ] ],
+    "components": [
+      [ [ "rune_animist", 1 ] ],
+      [
+        [ "bone", 1 ],
+        [ "bone_human", 1 ],
+        [ "bone_tainted", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_3",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "tools": [ [ [ "bone_flute", -1 ] ] ],
+    "//":  "Consider adding an animist recipe for a holy symbol, and adding that as a requirement here",
+    "components": [
+      [ [ "rune_animist", 1 ] ],
+      [
+        [ "bone", 1 ],
+        [ "bone_human", 1 ],
+        [ "bone_tainted", 1 ]
+      ],
+      [
+        [ "meat_offal", 2, "LIST" ]
+      ]
+    ]
+  }
+]

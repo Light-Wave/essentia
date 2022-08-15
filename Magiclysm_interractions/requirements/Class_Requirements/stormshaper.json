@@ -1,0 +1,54 @@
+[
+  {
+    "id": "req_research_stormshaper_tier_0",
+    "type": "requirement",
+    "//": "Energy, electricity, weather, lightning, wind, rain, clouds, mist",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_stormshaper", 1 ] ],
+      [
+        [ "crystal_aer", 1 ],
+        [ "crystal_aqua", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_stormshaper_tier_1",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_stormshaper", 1 ] ],
+      [
+        [ "crystal_aer", 1 ],
+        [ "crystal_aqua", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_stormshaper_tier_2",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "tools": [ [ [ "bone_flute", -1 ] ] ],
+    "components": [
+      [ [ "rune_stormshaper", 1 ] ],
+      [
+        [ "crystal_aer", 1 ],
+        [ "crystal_aqua", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_stormshaper_tier_3",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "tools": [ [ [ "bone_flute", -1 ] ] ],
+    "//":  "Consider adding an stormshaper recipe for a holy symbol, and adding that as a requirement here",
+    "components": [
+      [ [ "rune_stormshaper", 1 ] ],
+      [
+        [ "crystal_aer", 1 ],
+        [ "crystal_aqua", 1 ]
+      ]
+    ]
+  }
+]

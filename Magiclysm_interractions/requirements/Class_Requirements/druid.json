@@ -1,0 +1,65 @@
+[
+  {
+    "id": "req_research_druid_tier_0",
+    "type": "requirement",
+    "//": "Plant matter",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_druid", 1 ] ],
+      [
+        [ "withered", 1 ],
+        [ "young_leaves", 1 ],
+        [ "handful of leaves", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_druid_tier_1",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_druid", 1 ] ],
+      [
+        [ "withered", 2 ],
+        [ "young_leaves", 1 ],
+        [ "handful of leaves", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_druid_tier_2",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "components": [
+      [ [ "rune_druid", 1 ] ],
+      [
+        [ "withered", 2 ],
+        [ "young_leaves", 1 ],
+        [ "handful of leaves", 1 ]
+      ],
+      [
+        [ "water", 10]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_druid_tier_3",
+    "type": "requirement",
+    "proficiencies": [ { "proficiency": "prof_harmony" } ],
+    "//":  "Effectively requires a natural water source",
+    "components": [
+      [ [ "rune_druid", 1 ] ],
+      [
+        [ "withered", 2 ],
+        [ "young_leaves", 1 ],
+        [ "handful of leaves", 1 ]
+      ],
+      [
+        [ "water", 1000]
+      ],
+      [
+        [ "log", 1]
+      ]
+    ]
+  }
+]
