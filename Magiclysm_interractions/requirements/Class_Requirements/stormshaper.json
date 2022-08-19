@@ -7,8 +7,17 @@
     "components": [
       [ [ "rune_stormshaper", 1 ] ],
       [
-        [ "crystal_aer", 1 ],
-        [ "crystal_aqua", 1 ]
+        [ "insight_weather_clear", 1 ],
+        [ "insight_weather_sunny", 1 ],
+        [ "insight_weather_cloudy", 1 ],
+        [ "insight_weather_light_drizzle", 1 ],
+        [ "insight_weather_drizzle", 1 ],
+        [ "insight_weather_rain", 1 ],
+        [ "insight_weather_thunder", 1 ],
+        [ "insight_weather_lightning", 1 ],
+        [ "insight_weather_flurries", 1 ],
+        [ "insight_weather_snowing", 1 ],
+        [ "insight_weather_snowstorm", 1 ]
       ]
     ]
   },
@@ -19,8 +28,17 @@
     "components": [
       [ [ "rune_stormshaper", 1 ] ],
       [
-        [ "crystal_aer", 1 ],
-        [ "crystal_aqua", 1 ]
+        [ "insight_weather_clear", 1 ],
+        [ "insight_weather_sunny", 1 ],
+        [ "insight_weather_cloudy", 1 ],
+        [ "insight_weather_light_drizzle", 1 ],
+        [ "insight_weather_drizzle", 1 ],
+        [ "insight_weather_rain", 1 ],
+        [ "insight_weather_thunder", 1 ],
+        [ "insight_weather_lightning", 1 ],
+        [ "insight_weather_flurries", 1 ],
+        [ "insight_weather_snowing", 1 ],
+        [ "insight_weather_snowstorm", 1 ]
       ]
     ]
   },
@@ -32,8 +50,14 @@
     "components": [
       [ [ "rune_stormshaper", 1 ] ],
       [
-        [ "crystal_aer", 1 ],
-        [ "crystal_aqua", 1 ]
+        [ "insight_weather_light_drizzle", 1 ],
+        [ "insight_weather_drizzle", 1 ],
+        [ "insight_weather_rain", 1 ],
+        [ "insight_weather_thunder", 1 ],
+        [ "insight_weather_lightning", 1 ],
+        [ "insight_weather_flurries", 1 ],
+        [ "insight_weather_snowing", 1 ],
+        [ "insight_weather_snowstorm", 1 ]
       ]
     ]
   },
@@ -42,12 +66,16 @@
     "type": "requirement",
     "proficiencies": [ { "proficiency": "prof_harmony" } ],
     "tools": [ [ [ "bone_flute", -1 ] ] ],
-    "//":  "Consider adding an stormshaper recipe for a holy symbol, and adding that as a requirement here",
+    "//":  "Consider adding a way to force bad weather",
     "components": [
       [ [ "rune_stormshaper", 1 ] ],
       [
-        [ "crystal_aer", 1 ],
-        [ "crystal_aqua", 1 ]
+        [ "insight_weather_drizzle", 1 ],
+        [ "insight_weather_rain", 1 ],
+        [ "insight_weather_thunder", 1 ],
+        [ "insight_weather_lightning", 1 ],
+        [ "insight_weather_snowing", 1 ],
+        [ "insight_weather_snowstorm", 1 ]
       ]
     ]
   }

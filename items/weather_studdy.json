@@ -1,47 +1,363 @@
 [
   {
     "type": "TOOL",
-    "copy-from": "hypothesis_abstract",
-    "id": "hypothesis_thaumatology_t0",
-    "name": { "str": "fundamental thaumaturgic theory (sealed)", "str_pl": "fundamental thaumaturgic theories (sealed)" },
-    "description": "It came to you in a dream.  A way to crystalize certain elemental aspects of an object.  All you need is a runestone, and the will to investigate.",
+    "copy-from": "rock",
+    "id": "weather_study_kit",
+    "name": { "str": "weather study kit", "str_pl": "weather study kits" },
+    "description": "This kit contains tools used to study the current weather.  You can make observations of each type of weather once per day.  Must be performed outdoors.",
     "use_action": {
-      "type": "transform",
-      "target": "theory_thaumatology_t0",
-      "qualities_needed" : { "THAUMOTURGIC_MANIPULATION": 1 }
+      "type": "effect_on_conditions",
+      "description": "Make observations.",
+      "effect_on_conditions": [ "EOC_WEATHER_REPPORT" ]
     }
   },
   {
-    "type": "TOOL",
-    "copy-from": "hypothesis_abstract",
-    "id": "hypothesis_thaumatology_t1",
-    "name": { "str": "compound thaumaturgic theory (sealed)", "str_pl": "compound thaumaturgic theories (sealed)" },
-    "description": "With the fundamental elements covered, it's time to see what more can be done with these crystals.",
-    "use_action": {
-      "type": "transform",
-      "target": "theory_thaumatology_t1"
+    "type": "effect_on_condition",
+    "id": "EOC_WEATHER_REPPORT",
+    "effect": {
+      "run_eocs":
+        {
+          "id": "EOC_WEATHER_REPORT_CHECK_OUTSIDE",
+          "condition": {
+            "and": [
+              "u_can_see",
+              "u_is_outside",
+              { "not": { "u_has_effect": "sleep" } }
+            ]
+          },
+          "false_effect": { "u_message": "You don't have a clear view of the sky.", "type": "bad" },
+          "effect": {
+            "run_eocs":
+            [
+              {
+                "id": "EOC_WEATHER_REPORT_CLEAR",
+                "condition": { "is_weather": "clear" },
+                "effect": {
+                  "run_eocs": 
+                    {
+                      "id": "EOC_WEATHER_REPORT_CLEAR2",
+                      "condition":  { "u_compare_time_since_var": "clear", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                      "effect":
+                      [
+                        { "u_spawn_item": "insight_weather_clear" },
+                        { "u_message": "You observe the clear weather.", "type": "good" },
+                        { "u_add_var": "clear", "type": "cooldown", "context": "weather_report", "time": true }
+                      ],
+                      "false_effect": { "u_message": "You've already observed clear weather recently.", "type": "bad" }
+                    }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_SUNNY",
+                "condition": { "is_weather": "sunny" },
+                "effect": {
+                  "run_eocs": 
+                    {
+                      "id": "EOC_WEATHER_REPORT_SUNNY2",
+                      "condition":  { "u_compare_time_since_var": "sunny", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                      "effect":
+                      [
+                        { "u_spawn_item": "insight_weather_sunny" },
+                        { "u_message": "You observe the sunny weather.", "type": "good" },
+                        { "u_add_var": "sunny", "type": "cooldown", "context": "weather_report", "time": true }
+                      ],
+                      "false_effect": { "u_message": "You've already observed sunny weather recently.", "type": "bad" }
+                    }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_CLOUDY",
+                "condition": { "is_weather": "sunny" },
+                "effect": {
+                  "run_eocs": 
+                    {
+                      "id": "EOC_WEATHER_REPORT_CLOUDY2",
+                      "condition":  { "u_compare_time_since_var": "cloudy", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                      "effect":
+                      [
+                        { "u_spawn_item": "insight_weather_cloudy" },
+                        { "u_message": "You observe the cloudy weather.", "type": "good" },
+                        { "u_add_var": "cloudy", "type": "cooldown", "context": "weather_report", "time": true }
+                      ],
+                      "false_effect": { "u_message": "You've already observed cloudy weather recently.", "type": "bad" }
+                    }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_LIGHT_DRIZZLE",
+                "condition": { "is_weather": "light_drizzle" },
+                "effect": {
+                  "run_eocs": 
+                    {
+                      "id": "EOC_WEATHER_REPORT_LIGHT_DRIZZLE2",
+                      "condition":  { "u_compare_time_since_var": "light_drizzle", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                      "effect":
+                      [
+                        { "u_spawn_item": "insight_weather_light_drizzle" },
+                        { "u_message": "You observe the light drizzle.", "type": "good" },
+                        { "u_add_var": "light_drizzle", "type": "cooldown", "context": "weather_report", "time": true }
+                      ],
+                      "false_effect": { "u_message": "You've already observed a light drizzle recently.", "type": "bad" }
+                    }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_DRIZZLE",
+                "condition": { "is_weather": "drizzle" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_DRIZZLE2",
+                    "condition":  { "u_compare_time_since_var": "drizzle", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_drizzle" },
+                      { "u_message": "You observe the drizzle.", "type": "good" },
+                      { "u_add_var": "drizzle", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed a drizzle recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_RAIN",
+                "condition": { "is_weather": "rain" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_RAIN2",
+                    "condition":  { "u_compare_time_since_var": "rain", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_rain" },
+                      { "u_message": "You observe the rain.", "type": "good" },
+                      { "u_add_var": "rain", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed the rain recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_THUNDER",
+                "condition": { "is_weather": "thunder" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_THUNDER2",
+                    "condition":  { "u_compare_time_since_var": "thunder", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_thunder" },
+                      { "u_message": "You observe the thunder storm.", "type": "good" },
+                      { "u_add_var": "thunder", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed a thunder storm recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_LIGHTNING",
+                "condition": { "is_weather": "lightning" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_LIGHTNING2",
+                    "condition":  { "u_compare_time_since_var": "lightning", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_lightning" },
+                      { "u_message": "You observe the lightning storm.", "type": "good" },
+                      { "u_add_var": "lightning", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed a lightning storm recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_FLURRIES",
+                "condition": { "is_weather": "flurries" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_FLURRIES2",
+                    "condition":  { "u_compare_time_since_var": "flurries", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_lightning" },
+                      { "u_message": "You observe the flurries.", "type": "good" },
+                      { "u_add_var": "flurries", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed flurries recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_SNOWING",
+                "condition": { "is_weather": "snowing" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_SNOWING2",
+                    "condition":  { "u_compare_time_since_var": "snowing", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_snowing" },
+                      { "u_message": "You observe the snowfall.", "type": "good" },
+                      { "u_add_var": "snowing", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed snowfall recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_SNOWSTORM",
+                "condition": { "is_weather": "snowstorm" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_SNOWSTORM2",
+                    "condition":  { "u_compare_time_since_var": "snowstorm", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_snowstorm" },
+                      { "u_message": "You observe the snowstorm.", "type": "good" },
+                      { "u_add_var": "snowstorm", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed a snowstorm recently.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_PORTAL_EARLY",
+                "condition": { "is_weather": "early_portal_storm" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_PORTAL_EARLY2",
+                    "condition":  { "u_compare_time_since_var": "early_portal_storm", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_early_portal_storm" },
+                      { "u_message": "You observe the early signs of a portal storm.", "type": "good" },
+                      { "u_add_var": "early_portal_storm", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You've already observed an early portal storm recently.  You should probably find shelter.", "type": "bad" }
+                  }
+                }
+              },
+              {
+                "id": "EOC_WEATHER_REPORT_PORTAL_STORM",
+                "condition": { "is_weather": "portal_storm" },
+                "effect": {
+                  "run_eocs":
+                  {
+                    "id": "EOC_WEATHER_REPORT_PORTAL_STORM2",
+                    "condition":  { "u_compare_time_since_var": "portal_storm", "type": "cooldown", "context": "weather_report", "op": ">", "time": "8 hours" },
+                    "effect":
+                    [
+                      { "u_spawn_item": "insight_weather_portal_storm" },
+                      { "u_message": "You experience the terrifying effects of a portal storm.", "type": "good" },
+                      { "u_add_var": "portal_storm", "type": "cooldown", "context": "weather_report", "time": true }
+                    ],
+                    "false_effect": { "u_message": "You vaguely recall already having done this recently.", "type": "bad" }
+                  }
+                }
+              }
+            ]
+          }
+        }
     }
   },
   {
-    "type": "TOOL",
-    "copy-from": "hypothesis_abstract",
-    "id": "hypothesis_thaumatology_t2",
-    "name": { "str": "advanced essentia theory (sealed)", "str_pl": "advanced essentia theories (sealed)" },
-    "description": "Trying to create more complex aspects seems to create unstable crystals that imedietly decay into their compound aspects.  Yet you are confident there are more aspects out there to explore.  You will have to change your approach.",
-    "use_action": {
-      "type": "transform",
-      "target": "theory_thaumatology_t2"
-    }
+    "id": "insight_weather_clear",
+    "//":  "Perhaps Kerbal Space Program science experiments can serve as inspiration for flavour text here.",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "clear weather insight", "str_pl": "clear weather insights" },
+    "description": "Mental notes regarding your observations on clear weather.  It is slowly fading from your memory."
   },
   {
-    "type": "TOOL",
-    "copy-from": "hypothesis_abstract",
-    "id": "hypothesis_witchcraft",
-    "name": { "str": "a master thaumologit's observations on witchcraft (sealed)", "str_pl": "copies of a master thaumologit's observations on witchcraft (sealed)" },
-    "description": "Domination and harmony seems to be in constant conflict.  Both in the world, and within yourself.  There ought to be a way to draw power from both sides.  [[DO NOT DO THIS!!!]]",
-    "use_action": {
-      "type": "transform",
-      "target": "theory_witchcraft"
-    }
+    "id": "insight_weather_sunny",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "sunny weather insight", "str_pl": "sunny weather insights" },
+    "description": "Mental notes regarding your observations on sunny weather.  A beautiful day wit only a couple clouds in the distance.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_cloudy",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "cloudy weather insight", "str_pl": "cloudy weather insights" },
+    "description": "Mental notes regarding your observations on cloudy weather.  Most of the sky is blocked by clouds.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_light_drizzle",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "light drizzle weather insight", "str_pl": "light drizzle weather insights" },
+    "description": "Mental notes regarding your observations on a light drizzle.  Barerly enough water to dampen exposed surfaces.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_drizzle",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "drizzle weather insight", "str_pl": "drizzle weather insights" },
+    "description": "Mental notes regarding your observations on a drizzle.  Exposed surfaces are slightly damp.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_rain",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "rainy weather insight", "str_pl": "rainy weather insights" },
+    "description": "Mental notes regarding your observations on rainy weather.  Being outside in this weather will make you wet.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_thunder",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "thunder storm insight", "str_pl": "thunder storm insights" },
+    "description": "Mental notes regarding your observations on a thunderstorm.  Rain is heavy, and thunder can be heard in the distnace.  Thick, dark clouds reduce incomming sunlight.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_lightning",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "lightning storm insight", "str_pl": "lightning storm insights" },
+    "description": "Mental notes regarding your observations on a lightning storm.  Perhaps you should seek shelter.  The rain is heavy, and lightning strikes occasionally.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_flurries",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "flurries insight", "str_pl": "flurries insights" },
+    "description": "Mental notes regarding your observations on a light snowfall.  You catch a snowflake on the tip of your tongue. The experience is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_snowing",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "snowy weather insight", "str_pl": "snowy weather insights" },
+    "description": "Mental notes regarding your observations on snowy weather.  The snowflakes gives the world a white tint.  The experience is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_snowstorm",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "snowstorm insight", "str_pl": "snowstorm insights" },
+    "description": "Mental notes regarding your observations on a snwostorm.  You would much rather be indoors.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_early_portal_storm",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "early portal storm insight", "str_pl": "early portal storm insights" },
+    "description": "Mental notes regarding your observations on an early portal storm.  Reality is breaking.  It is sutle, but you can feel the wrongness.  It is slowly fading from your memory."
+  },
+  {
+    "id": "insight_weather_portal_storm",
+    "type": "COMESTIBLE",
+    "copy-from": "insight_base",
+    "name": { "str": "portal storm insight", "str_pl": "portal storm insights" },
+    "description": "A confused jumble of memories that may or may not be yours, gained during a portal storm.  Thankfully, it is slowly fading from your memory."
   }
 ]
