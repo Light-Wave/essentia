@@ -1,0 +1,224 @@
+[
+  {
+    "id": "req_research_technomancer_tier_0",
+    "type": "requirement",
+    "//": "Earthy substances worked on by human hands.",
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "rune_technomancer", 1 ] ],
+      [
+        [ "clay_pot", 4 ],
+        [ "clay_pot_flower", 5 ],
+        [ "clay_teapot", 7 ],
+        [ "bowl_clay", 2 ],
+        [ "clay_canister", 5 ],
+        [ "clay_hydria", 1 ],
+        [ "clay_watercont", 1 ],
+        [ "jug_clay", 2 ],
+        [ "clay_quern", 3 ],
+        [ "crucible_clay", 5 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_technomancer_tier_1",
+    "type": "requirement",
+    "//": "Earthy substances worked on by human hands.",
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "rune_technomancer", 1 ] ],
+      [
+        [ "clay_pot", 4 ],
+        [ "clay_pot_flower", 5 ],
+        [ "clay_teapot", 7 ],
+        [ "bowl_clay", 2 ],
+        [ "clay_canister", 5 ],
+        [ "clay_hydria", 1 ],
+        [ "clay_watercont", 1 ],
+        [ "jug_clay", 2 ],
+        [ "clay_quern", 3 ],
+        [ "crucible_clay", 5 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_technomancer_tier_2",
+    "type": "requirement",
+    "//": "Earthy substances worked on by human hands.",
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "rune_technomancer", 1 ] ],
+      [
+        [ "clay_pot", 4 ],
+        [ "clay_pot_flower", 5 ],
+        [ "clay_teapot", 7 ],
+        [ "bowl_clay", 2 ],
+        [ "clay_canister", 5 ],
+        [ "clay_hydria", 1 ],
+        [ "clay_watercont", 1 ],
+        [ "jug_clay", 2 ],
+        [ "clay_quern", 3 ],
+        [ "crucible_clay", 5 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_technomancer_tier_3",
+    "type": "requirement",
+    "//": "Earthy substances worked on by human hands.",
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 } ],
+    "components": [
+      [ [ "rune_technomancer", 1 ] ],
+      [
+        [ "clay_pot", 4 ],
+        [ "clay_pot_flower", 5 ],
+        [ "clay_teapot", 7 ],
+        [ "bowl_clay", 2 ],
+        [ "clay_canister", 5 ],
+        [ "clay_hydria", 1 ],
+        [ "clay_watercont", 1 ],
+        [ "jug_clay", 2 ],
+        [ "clay_quern", 3 ],
+        [ "crucible_clay", 5 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_earthshaper_tier_0",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_earthshaper_tier_1",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_earthshaper_tier_2",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_earthshaper_tier_3",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_0",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 1 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_1",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_2",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  },
+  {
+    "id": "req_research_animist_tier_3",
+    "type": "requirement",
+    "//": "Earthy substances from nature.",
+    "tools": [ [ [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "mortar_pestle", -1 ], [ "food_processor", 10 ] ] ],
+    "components": [
+      [ [ "rune_earthshaper", 1 ] ],
+      [
+        [ "material_soil", 5 ],
+        [ "material_sand", 4 ],
+        [ "clay_lump", 2 ],
+        [ "rock", 2 ],
+        [ "rock_flaking", 2 ],
+        [ "rock_large", 1 ],
+        [ "pebble", 8 ]
+      ]
+    ]
+  }
+]
